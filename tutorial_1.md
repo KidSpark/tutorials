@@ -1,5 +1,5 @@
 ```package
-sparkbitO=github:kidspark/pxt-sparkbit
+sparkbit=github:kidspark/pxt-sparkbit
 ```
 # Introduction to MakeCode
 
