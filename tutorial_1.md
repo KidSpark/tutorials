@@ -5,7 +5,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ## Step 1
 
-Place the ``||sparkbitO:rotate motor module||`` block in the ``||basic:forever||`` block.
+Place the ``||pxt-sparkbit:rotate motor module||`` block in the ``||basic:forever||`` block.
 
 ```blocks
 basic.forever(function () {
