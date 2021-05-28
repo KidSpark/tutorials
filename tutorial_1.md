@@ -1,5 +1,3 @@
-### @flyoutOnly true
-
 ```package
 pxt-sparkbit=github:kidspark/pxt-sparkbit
 ```
