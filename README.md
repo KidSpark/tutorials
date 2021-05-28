@@ -3,6 +3,8 @@
 
 ## Use as Extension
 
+[direct link](https://makecode.microbit.org/#tutorial:github:halspeed/tutorials/tutorial_1)
+
 This repository can be added as an **extension** in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
