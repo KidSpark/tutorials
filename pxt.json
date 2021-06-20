@@ -11,7 +11,8 @@
         "README.md",
         "tutorial_1.md",
         "1_1_The_Sparkbit.md",
-        "1_2_2_Intro_to_MakeCode_tutorial_2.md"
+        "1_2_2_Intro_to_MakeCode_tutorial_2.md",
+        "1_2_3_Intro_to_MakeCode_tutorial_3.md"
     ],
     "testFiles": [
         "test.ts"
