@@ -1,5 +1,5 @@
 {
-    "name": "tutorial_1",
+    "name": "The Spark:bit",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -9,13 +9,14 @@
     "files": [
         "main.ts",
         "README.md",
-        "tutorial_1.md"
+        "tutorial_1.md",
+        "1_1_The_Sparkbit.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "3.1.93",
+        "target": "3.1.95",
         "targetId": "microbit"
     },
     "supportedTargets": [
