@@ -6,7 +6,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ## Step 1
 
-Defining ``||functions:functions||``
+Defining ``||advanced:Advanced||`` and  ``||functions:functions||``
 
 ```blocks
 function right () {
