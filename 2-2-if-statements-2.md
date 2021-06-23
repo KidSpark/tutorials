@@ -18,7 +18,7 @@ basic.forever(function () {
 
 ## Step 1
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block with the equal sign and degrees, and place it in the top ``||if-then||`` block by replacing **true**. Change the equal sign (=) to greater than (>) and adjust the degrees to 200.
+Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block with the equal sign and degrees, and place it in the top ``||logic:if-then||`` block by replacing **true**. Change the equal sign (=) to greater than (>) and adjust the degrees to 200.
 
 ``` blocks
 basic.forever(function () {
