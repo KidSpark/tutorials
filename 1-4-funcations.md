@@ -55,7 +55,7 @@ function right () {
 
 ## Step 6
 
-Create two new ``||functions:Functions||`` called **forward** and **backward**. Make sure the correct output and direction are selected on the ``||sparkbitO:rotate motor module||`` block.
+Create two new ``||functions:Functions||`` called **forward** and **backward**. Make sure the correct output and direction are selected on the ``||sparkbitO:rotate motor module||`` blocks.
 
 ```blocks
 function left () {
@@ -78,7 +78,7 @@ function backward () {
 
 ## Step 7
 
-Look at the maze and observe how the maze needs tilt right in order for the ball to start rolling in the correct direction. Open the ``||functions:Functions||`` container, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
+Look at the maze and observe how the maze needs to tilt right in order for the ball to start rolling in the correct direction. Open the ``||functions:Functions||`` container, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
 
 ```blocks
 function left () {
@@ -134,4 +134,7 @@ left()
 ```
 ## Step 9
 
-Make sure the Spark:bit is powered on. ``|Download|`` the program to the Spark:bit and observe the maze. Did your maze function correctly? If not, you may need to go back through your program and check a few things. Make sure the output number and direction are correct in the ``||sparkbitO:rotate motor module||`` blocks. Make sure the ``||functions:call function||`` blocks are in the correct order. Make sure each direction ``||functions:function||`` includes a 1 second (1000 ms) ``||basic:pause||``.
+Make sure the Spark:bit is powered on. ``|Download|`` the program to the Spark:bit and observe the maze. Did your maze function correctly? If not, you may need to go back through your program and check a few things:
+* Make sure the output number and direction are correct in the ``||sparkbitO:rotate motor module||`` blocks.
+* Make sure the ``||functions:call function||`` blocks are in the correct order. 
+* Make sure each direction ``||functions:function||`` includes a 1 second (1000 ms) ``||basic:pause||``.
