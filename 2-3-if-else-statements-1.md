@@ -27,7 +27,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it after the ``||logic:if||`` by replacing **true**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it after ``||logic:if||`` by replacing **true**.
 
 ```blocks
 basic.forever(function () {
@@ -57,7 +57,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:turn off light module||``, and connect it below the ``||logic:else||``.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:turn off light module||``, and connect it below ``||logic:else||``.
 
 ```blocks
 basic.forever(function () {
