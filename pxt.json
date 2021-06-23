@@ -16,7 +16,8 @@
         "1-3-pauses-1.md",
         "1-3-pauses-2.md",
         "2-1-sensors-1.md",
-        "1-4-functions.md"
+        "1-4-functions.md",
+        "2-1-sensors-2.md"
     ],
     "testFiles": [
         "test.ts"
