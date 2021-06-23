@@ -38,7 +38,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Connect another ``||basic:pause||`` block to the bottom of the ``||sparkbitO:stop motor module||`` block.
+Connect a ``||basic:pause||`` block to the bottom of the ``||sparkbitO:stop motor module||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -55,8 +55,4 @@ basic.forever(function () {
 
 ## Step 6
 
-Adjust the ``||basic:pause||`` times.
-
-## Step 7 
-
-``|Download|`` the program to the Spark:bit and observe the mechanism.
+Adjust the ``||basic:pause||`` times. ``|Download|`` the program to the Spark:bit and observe the mechanism.
