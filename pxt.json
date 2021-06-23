@@ -20,13 +20,14 @@
         "2-1-sensors-2.md",
         "2-2-if-statements-1.md",
         "2-2-if-statements-2.md",
-        "2-3-if-else-statements-1.md"
+        "2-3-if-else-statements-1.md",
+        "2-3-if-else-statements-2.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.1",
+        "target": "4.0.2",
         "targetId": "microbit"
     },
     "supportedTargets": [
