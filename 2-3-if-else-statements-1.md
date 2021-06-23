@@ -27,7 +27,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it in the ``||logic:if-then-else||`` block by replacing **true**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it after the ``||logic:if||`` by replacing **true**.
 
 ```blocks
 basic.forever(function () {
@@ -42,8 +42,22 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:set light module
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:set light module||``, and connect it below ``||logic:then||``.
 
+```blocks
+basic.forever(function () {
+    serial.writeLine("" + (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))))
+    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+    } else {
+    	
+    }
+})
+```
+
+## Step 4
+
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:turn off light module||``, and connect it below the ``||logic:else||``.
 
 ```blocks
 basic.forever(function () {
@@ -55,3 +69,6 @@ basic.forever(function () {
     }
 })
 ```
+## Step 5
+
+``|Download|`` the program to the Spark:bit and select **Show console Simulator**. Press the bump sensor and observe the light module and the serial monitor.
