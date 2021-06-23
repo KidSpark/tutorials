@@ -12,7 +12,7 @@ basic.forever(function () {
 
 ## Step 1
 
-Open ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:set light module||`` block and connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:set light module||`` block and connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block.
 
 ```blocks
 basic.forever(function () {
