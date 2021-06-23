@@ -25,7 +25,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and connect to the bottom of the ``||serial:serial write line||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
 
 ``` blocks
 basic.forever(function () {
@@ -47,5 +47,5 @@ basic.forever(function () {
 
 ## Step 5
 
-``|Download|`` the program to the Spark:bit. Select ``|Show console Simulator|`` located under the micro:bit simulator and observe the serial monitor and plotter. Rotate the angle sensor and ovserve the speed of the motor, as well as, the serial monitor and plotter.
+``|Download|`` the program to the Spark:bit. Select **Show console Simulator** located under the micro:bit simulator and observe the serial monitor and plotter. Rotate the angle sensor and observe the speed of the motor, as well as, the serial monitor and plotter.
 
