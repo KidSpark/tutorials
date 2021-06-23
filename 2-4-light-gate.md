@@ -47,4 +47,4 @@ basic.forever(function () {
 
 ## Step 3
 
-``|Download|`` the program to the Spark:bit and select **Show console Simulator**. Test and observe mechanism by placing your finger between the IR transmitter and receiver. Observe the boolean values in the serial monitor. 
+``|Download|`` the program to the Spark:bit and select **Show console Simulator**. Test and observe the mechanism by placing your finger between the IR transmitter and receiver. Observe the boolean values in the serial monitor. 

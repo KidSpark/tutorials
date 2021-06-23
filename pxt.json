@@ -22,7 +22,8 @@
         "2-2-if-statements-2.md",
         "2-3-if-else-statements-1.md",
         "2-3-if-else-statements-2.md",
-        "2-4-light-gate.md"
+        "2-4-light-gate.md",
+        "2-5-proximity-sensor.md"
     ],
     "testFiles": [
         "test.ts"
