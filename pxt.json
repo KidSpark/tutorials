@@ -1,5 +1,5 @@
 {
-    "name": "The Spark:bit",
+    "name": "Intro to MakeCode",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -10,7 +10,8 @@
         "main.ts",
         "README.md",
         "tutorial_1.md",
-        "1-1-sparkbit.md"
+        "1-1-sparkbit.md",
+        "1-2-makecode-2.md"
     ],
     "testFiles": [
         "test.ts"
