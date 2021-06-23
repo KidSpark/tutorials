@@ -1,5 +1,5 @@
 {
-    "name": "Intro to MakeCode",
+    "name": "The Spark:bit",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -10,15 +10,13 @@
         "main.ts",
         "README.md",
         "tutorial_1.md",
-        "1_1_The_Sparkbit.md",
-        "1_2_2_Intro_to_MakeCode_tutorial_2.md",
-        "1_2_3_Intro_to_MakeCode_tutorial_3.md"
+        "1-1-sparkbit.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "3.1.95",
+        "target": "4.0.1",
         "targetId": "microbit"
     },
     "supportedTargets": [
