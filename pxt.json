@@ -18,7 +18,8 @@
         "2-1-sensors-1.md",
         "1-4-functions.md",
         "2-1-sensors-2.md",
-        "2-2-if-statements-1.md"
+        "2-2-if-statements-1.md",
+        "2-2-if-statements-2.md"
     ],
     "testFiles": [
         "test.ts"
