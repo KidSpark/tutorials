@@ -42,7 +42,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:set light module||``, and connect it below ``||logic:then||``.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:set light module||`` block, and connect it below ``||logic:then||``.
 
 ```blocks
 basic.forever(function () {
@@ -57,7 +57,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:turn off light module||``, and connect it below ``||logic:else||``.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:turn off light module||`` block, and connect it below ``||logic:else||``.
 
 ```blocks
 basic.forever(function () {
