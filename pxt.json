@@ -26,7 +26,8 @@
         "2-5-proximity-sensor.md",
         "3-1-repeat-loops.md",
         "3-2-while-loops.md",
-        "3-3-integer-variables-1.md"
+        "3-3-integer-variables-1.md",
+        "3-3-integer-variables-2.md"
     ],
     "testFiles": [
         "test.ts"
