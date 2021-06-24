@@ -28,7 +28,8 @@
         "3-2-while-loops.md",
         "3-3-integer-variables-1.md",
         "3-3-integer-variables-2.md",
-        "3-3-integer-variables-3.md"
+        "3-3-integer-variables-3.md",
+        "3-4-boolean-variables.md"
     ],
     "testFiles": [
         "test.ts"
