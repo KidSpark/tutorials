@@ -24,13 +24,14 @@
         "2-3-if-else-statements-2.md",
         "2-4-light-gate.md",
         "2-5-proximity-sensor.md",
-        "3-1-repeat-loops.md"
+        "3-1-repeat-loops.md",
+        "3-2-while-loops.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.4",
+        "target": "4.0.5",
         "targetId": "microbit"
     },
     "supportedTargets": [
