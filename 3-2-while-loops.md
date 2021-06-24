@@ -42,9 +42,21 @@ basic.forever(function () {
 
 ## Step 3
 
+Add a ``||sparkbitI:bump sensor||`` block inside the ``||logic:not||`` block, and change the to **input 2**.
 
+```blocks
+basic.forever(function () {
+    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+        while (!(sparkbitI.bumpSensor(sparkbitI.__inputNumber(2)))) {
+        	
+        }
+    }
+})
+```
 
+## Step 4
 
+Add a ``||sparkbitO:set light module||`` block inside the ``||loops:while||`` loop, and change the color to **red**. Add a ``||sparkbitO:turn off light module||`` block outside the ``||loops:while||`` loop but inside the ``||logic:if-then||`` statement.
 
 ```blocks
 basic.forever(function () {
@@ -56,3 +68,7 @@ basic.forever(function () {
     }
 })
 ```
+
+## Step 5
+
+``|Download|`` the program to the Spark:bit, press the bump sensors, and observe the mechanism.
