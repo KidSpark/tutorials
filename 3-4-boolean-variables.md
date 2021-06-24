@@ -95,7 +95,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic:on start||`` and one at the end of the ``||logic:if-then||`` statement below the ``||basic:pause||``.
+Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic:on start||`` and one at the end of the ``||logic:if-then||`` statement below the ``||basic:pause||`` block.
 
 ```blocks
 let toggle = false
