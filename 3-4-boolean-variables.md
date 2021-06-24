@@ -119,4 +119,4 @@ basic.forever(function () {
 
 ``|Download|`` the program to the Spark:bit and select **Show console Simulator**.
 * Press the bump sensor and observe the mechanism (light module) and the serial monitor.
-* Press the bump sensor a second time and observe the mechanism and serial monitor.
+* Press the bump sensor a second time and observe the mechanism and the serial monitor.
