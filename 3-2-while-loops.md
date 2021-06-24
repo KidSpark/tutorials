@@ -42,7 +42,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Add a ``||sparkbitI:bump sensor||`` block inside the ``||logic:not||`` block, and change the to **input 2**.
+Add a ``||sparkbitI:bump sensor||`` block inside the ``||logic:not||`` block, and change to **input 2**.
 
 ```blocks
 basic.forever(function () {
