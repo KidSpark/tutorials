@@ -80,4 +80,6 @@ basic.forever(function () {
 
 ## Step 3
 
-``|Download|`` the program to the Spark:bit and select **Show consule Simulator**. Press bump sensor 1 five times and observe the mechanism (light module) and the serial monitor. Press bump sensor 2 and observe the machanism (light module) and the serial monitor.
+``|Download|`` the program to the Spark:bit and select **Show consule Simulator**.
+* Press bump sensor 1 five times and observe the mechanism (light module) and the serial monitor.
+* Press bump sensor 2 and observe the machanism (light module) and the serial monitor.
