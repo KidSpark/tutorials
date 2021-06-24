@@ -18,7 +18,7 @@ basic.forever(function () {
 
 ## Step 1
 
-Right click on the ``||logic:if-then||`` statement and select **Duplicate**. Add the second ``||logic:if-then||``statement to the ``||basic:forever||`` funcation.
+Right click on the ``||logic:if-then||`` statement and select **Duplicate**. Add the second ``||logic:if-then||`` statement to the ``||basic:forever||`` funcation.
 
 ```blocks
 let count = 0
