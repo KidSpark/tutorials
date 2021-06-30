@@ -4,12 +4,12 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 23, Colors.Green)
-        sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Clockwise)
+    if (sparkbitI.bumpSensor(1)) {
+        sparkbitO.setLightModule(1, 23, Colors.Green)
+        sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
     } else {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 23, Colors.Red)
-        sparkbitO.stopMotor(sparkbitO.__outputNumber(2))
+        sparkbitO.setLightModule(1, 23, Colors.Red)
+        sparkbitO.stopMotor(2)
     }
 })
 ```
