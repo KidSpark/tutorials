@@ -19,7 +19,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.readAngleSensorDeg(DegreePercent.Percent, sparkbitI.__inputNumber(1))))
+    serial.writeLine("" + (sparkbitI.readAngleSensorDeg(DegreePercent.Percent, 1)))
 })
 ```
 
@@ -29,8 +29,8 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 
 ``` blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.readAngleSensorDeg(DegreePercent.Percent, sparkbitI.__inputNumber(1))))
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), 100, Directions.Clockwise)
+    serial.writeLine("" + (sparkbitI.readAngleSensorDeg(DegreePercent.Percent, 1)))
+    sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
 })
 ```
 
@@ -40,8 +40,8 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.readAngleSensorDeg(DegreePercent.Percent, sparkbitI.__inputNumber(1))))
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), sparkbitI.readAngleSensorDeg(DegreePercent.Percent, sparkbitI.__inputNumber(1)), Directions.Clockwise)
+    serial.writeLine("" + (sparkbitI.readAngleSensorDeg(DegreePercent.Percent, 1)))
+    sparkbitO.rotateMotorDuration(1, sparkbitI.readAngleSensorDeg(DegreePercent.Percent, 1), Directions.Clockwise)
 })
 ```
 
