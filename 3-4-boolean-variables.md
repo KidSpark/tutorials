@@ -4,11 +4,11 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         if (true) {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+            sparkbitO.setLightModule(1, 100, Colors.Red)
         } else {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+            sparkbitO.setLightModule(1, 100, Colors.Green)
         }
         basic.pause(500)
     }
@@ -23,12 +23,12 @@ Open the ``||variables:Variables||`` container and **Make a Variable** called **
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         let toggle = 0
         if (toggle) {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+            sparkbitO.setLightModule(1, 100, Colors.Red)
         } else {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+            sparkbitO.setLightModule(1, 100, Colors.Green)
         }
         basic.pause(500)
     }
@@ -42,12 +42,12 @@ Open the ``||variables:Variables||`` container, select the ``||variables:set tog
 ```blocks
 let toggle = 0
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+            sparkbitO.setLightModule(1, 100, Colors.Red)
             toggle = 0
         } else {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+            sparkbitO.setLightModule(1, 100, Colors.Green)
         }
         basic.pause(500)
     }
@@ -61,12 +61,12 @@ Open the ``||logic:Logic||`` container, select the ``||logic:false||`` block, an
 ```blocks
 let toggle = false
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+            sparkbitO.setLightModule(1, 100, Colors.Red)
             toggle = false
         } else {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+            sparkbitO.setLightModule(1, 100, Colors.Green)
         }
         basic.pause(500)
     }
@@ -80,12 +80,12 @@ Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set ligh
 ```blocks
 let toggle = false
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+            sparkbitO.setLightModule(1, 100, Colors.Red)
             toggle = false
         } else {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+            sparkbitO.setLightModule(1, 100, Colors.Green)
             toggle = true
         }
         basic.pause(500)
@@ -101,12 +101,12 @@ Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic
 let toggle = false
 serial.writeLine("" + (toggle))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+            sparkbitO.setLightModule(1, 100, Colors.Red)
             toggle = false
         } else {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+            sparkbitO.setLightModule(1, 100, Colors.Green)
             toggle = true
         }
         basic.pause(500)
