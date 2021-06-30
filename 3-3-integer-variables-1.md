@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
     	
     }
 })
@@ -19,7 +19,7 @@ Open the ``||variables:Variables||`` container, select **Make a Variable**, name
 ```blocks
 let count = 0
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
     }
 })
@@ -33,7 +33,7 @@ Add a ``||serial:serial write line||`` block to ``||basic:on start||``.
 let count = 0
 serial.writeLine("")
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
     }
 })
@@ -47,7 +47,7 @@ Add a ``||serial:serial write line||`` block and a ``||basic:pause||`` block to 
 let count = 0
 serial.writeLine("")
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("")
         basic.pause(500)
@@ -63,7 +63,7 @@ Open the ``||variables:Variable||`` container, select the ``||variables:count||`
 let count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
