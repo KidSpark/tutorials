@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
     	
     }
 })
@@ -18,7 +18,7 @@ Open the ``||loops:Loops||`` container, select the ``||loops:while||`` block, an
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         while (true) {
         	
         }
@@ -32,7 +32,7 @@ Add a ``||logic:not||`` block to the ``||loops:while||`` loop.
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         while (!(false)) {
         	
         }
@@ -46,8 +46,8 @@ Add a ``||sparkbitI:bump sensor||`` block inside the ``||logic:not||`` block, an
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
-        while (!(sparkbitI.bumpSensor(sparkbitI.__inputNumber(2)))) {
+    if (sparkbitI.bumpSensor(1)) {
+        while (!(sparkbitI.bumpSensor(2))) {
         	
         }
     }
@@ -60,11 +60,11 @@ Add a ``||sparkbitO:set light module||`` block inside the ``||loops:while||`` lo
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
-        while (!(sparkbitI.bumpSensor(sparkbitI.__inputNumber(2)))) {
-            sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+    if (sparkbitI.bumpSensor(1)) {
+        while (!(sparkbitI.bumpSensor(2))) {
+            sparkbitO.setLightModule(1, 100, Colors.Red)
         }
-        sparkbitO.stopLight(sparkbitO.__outputNumber(1))
+        sparkbitO.stopLight(1)
     }
 })
 ```
