@@ -17,7 +17,7 @@ basic.forever(function () {
 
 ## Step 1
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||serial:serial write line||`` block. Change receiver to **input 2**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||serial:serial write line||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -32,7 +32,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Place another ``||sparkbitI:IR Tx/Rx||`` block after the ``||logic:if||`` replacing **true**. Change receiver to **input 2**.
+Place another ``||sparkbitI:IR Tx/Rx||`` block after the ``||logic:if||`` replacing **true**.
 
 ```blocks
 basic.forever(function () {
