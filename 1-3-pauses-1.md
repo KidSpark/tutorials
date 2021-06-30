@@ -5,7 +5,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ## Step 1
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:rotate motor module||`` block. Connect it to the ``||basic:forever||`` function.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:rotate motor module||`` block. Connect it to the ``||basic:forever||`` function. Change output to **2**.
 
 ```blocks
 basic.forever(function () {
