@@ -23,7 +23,7 @@ Look at the maze and observe how the motor module that is connected to output 2 
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
 }
 ```
 
@@ -33,7 +33,7 @@ Open the ``||basic:Basic||`` container, select the ``||basic:pause||`` block, an
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 ```
@@ -44,11 +44,11 @@ Look at the maze and observe how the motor module that is connected to output 2 
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 function right () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
     basic.pause(1000)
 }
 ```
@@ -59,19 +59,19 @@ Create two new ``||functions:Functions||`` called **forward** and **backward**. 
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 function right () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
     basic.pause(1000)
 }
 function forward () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
     basic.pause(1000)
 }
 function backward () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(1, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 ```
@@ -82,19 +82,19 @@ Look at the maze and observe how the maze needs to tilt right in order for the b
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 function right () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
     basic.pause(1000)
 }
 function forward () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
     basic.pause(1000)
 }
 function backward () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(1, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 right()
@@ -106,19 +106,19 @@ Determine which directions the maze must tilt in order for the ball to continue 
 
 ```blocks
 function right () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
     basic.pause(1000)
 }
 function left () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 function backward () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), 100, Directions.Counterclockwise)
+    sparkbitO.rotateMotorDuration(1, 100, Directions.Counterclockwise)
     basic.pause(1000)
 }
 function forward () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(1), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
     basic.pause(1000)
 }
 right()
