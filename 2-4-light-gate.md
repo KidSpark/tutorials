@@ -6,9 +6,9 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 basic.forever(function () {
     serial.writeLine("")
     if (true) {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+        sparkbitO.setLightModule(1, 100, Colors.Red)
     } else {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+        sparkbitO.setLightModule(1, 100, Colors.Green)
     }
 })
 ```
@@ -21,11 +21,11 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.proximity(sparkbitI.__inputNumber(1), sparkbitI.__inputNumber(2))))
+    serial.writeLine("" + (sparkbitI.proximity(1, 2)))
     if (true) {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+        sparkbitO.setLightModule(1, 100, Colors.Red)
     } else {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+        sparkbitO.setLightModule(1, 100, Colors.Green)
     }
 })
 ```
@@ -36,11 +36,11 @@ Place another ``||sparkbitI:IR Tx/Rx||`` block after the ``||logic:if||`` replac
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.proximity(sparkbitI.__inputNumber(1), sparkbitI.__inputNumber(2))))
-    if (sparkbitI.proximity(sparkbitI.__inputNumber(1), sparkbitI.__inputNumber(2))) {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Red)
+    serial.writeLine("" + (sparkbitI.proximity(1, 2)))
+    if (sparkbitI.proximity(1, 2)) {
+        sparkbitO.setLightModule(1, 100, Colors.Red)
     } else {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+        sparkbitO.setLightModule(1, 100, Colors.Green)
     }
 })
 ```
