@@ -6,7 +6,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 let count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
@@ -24,12 +24,12 @@ Right click on the ``||logic:if-then||`` statement and select **Duplicate**. Add
 let count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
@@ -45,12 +45,12 @@ On the bottom ``||logic:if-then||`` statement, change bump sensor to **input 2**
 let count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(2))) {
+    if (sparkbitI.bumpSensor(2)) {
         count += -1
         serial.writeLine("" + (count))
         basic.pause(500)
