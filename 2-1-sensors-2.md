@@ -16,7 +16,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select a ``|sparkbitI:bum
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))))
+    serial.writeLine("" + (sparkbitI.bumpSensor(1)))
 })
 ```
 
