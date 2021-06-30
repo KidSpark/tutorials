@@ -32,7 +32,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||logic:not||`` block. Change receiver to **input 2**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||logic:not||`` block.
 
 ```blocks
 basic.forever(function () {
