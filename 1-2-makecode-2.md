@@ -10,7 +10,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container and select ``||sparkbitO:
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorDuration(sparkbitO.__outputNumber(2), 100, Directions.Clockwise)
+    sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
 })
 ```
 
