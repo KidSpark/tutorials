@@ -6,20 +6,20 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 let count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(2))) {
+    if (sparkbitI.bumpSensor(2)) {
         count += -1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
     if (true) {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+        sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
-        sparkbitO.stopLight(sparkbitO.__outputNumber(1))
+        sparkbitO.stopLight(1)
     }
 })
 ```
@@ -34,20 +34,20 @@ Open the ``||logic:Logic||`` container, select the ``||logic:comparison||`` bloc
 let count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(2))) {
+    if (sparkbitI.bumpSensor(2)) {
         count += -1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
     if (0 == 0) {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+        sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
-        sparkbitO.stopLight(sparkbitO.__outputNumber(1))
+        sparkbitO.stopLight(1)
     }
 })
 ```
@@ -60,20 +60,20 @@ Add the ``||variables:count||`` variable to the first part of the ``||logic:comp
 let count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(1))) {
+    if (sparkbitI.bumpSensor(1)) {
         count += 1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
-    if (sparkbitI.bumpSensor(sparkbitI.__inputNumber(2))) {
+    if (sparkbitI.bumpSensor(2)) {
         count += -1
         serial.writeLine("" + (count))
         basic.pause(500)
     }
     if (count == 5) {
-        sparkbitO.setLightModule(sparkbitO.__outputNumber(1), 100, Colors.Green)
+        sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
-        sparkbitO.stopLight(sparkbitO.__outputNumber(1))
+        sparkbitO.stopLight(1)
     }
 })
 ```
