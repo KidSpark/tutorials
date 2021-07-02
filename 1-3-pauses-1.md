@@ -26,7 +26,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:stop motor module||`` block. Connect it to the bottom of the ``||basic:pause||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:stop motor module||`` block. Connect it to the bottom of the ``||basic:pause||`` block. Change output to **2**.
 
 ```blocks
 basic.forever(function () {
