@@ -6,19 +6,16 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ## Step 1 @unplugged
 
-Welcome to MakeCode
-![makecode screen](/static/1-2-makecode-whole-screen.png)
+unplugged
 
 ## Step 2 @fullscreen
 
-this is download
-![download](/static/1-2-makecode-download.png)
+full screen
 
 ## Step 3 @showhint
 
-this is settings
-![settings](static/1-2-makecode-settings.png)
+show hint
 
 ## Step 4 @showdialog
 
-![console](static/1-2-makecode-console.png)
+show dialog
