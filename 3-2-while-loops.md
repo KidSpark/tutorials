@@ -19,7 +19,7 @@ Open the ``||loops:Loops||`` container, select the ``||loops:while||`` block, an
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
-        while (true) {
+        while (false) {
         	
         }
     }

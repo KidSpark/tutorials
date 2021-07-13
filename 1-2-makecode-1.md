@@ -4,4 +4,18 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 # Introduction to MakeCode
 
-## Step 1
+## Step 1 @showdialog
+
+![fullscreen](/static/1-2-makecode-whole-screen.png)
+
+## Step 2 @showdialog
+
+![toolbox](/static/1-2-makecode-toolbox.png)
+
+## Step 3 @showdialog
+
+![toolbox advanced](1-2-makecode-toolbox-advanced.png)
+
+## Step 4 @showdialog
+
+![workspace]
