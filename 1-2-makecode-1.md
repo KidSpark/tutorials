@@ -1,5 +1,7 @@
+```package
+pxt-sparkbit=github:kidspark/pxt-sparkbit
+```
+
 # Introduction to MakeCode
 
-## Step 1 
-will this show a dialog box
-
+## Step 1
