@@ -8,14 +8,3 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 unplugged
 
-## Step 2 @fullscreen
-
-full screen
-
-## Step 3 @showhint
-
-show hint
-
-## Step 4 @showdialog
-
-show dialog
