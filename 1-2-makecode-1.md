@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 # Introduction to MakeCode
 
-## Step 1 @unplugged
+## Step 1 @showdialog
 
 unplugged
 
