@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 # Introduction to MakeCode
 
-## Step 1 @showdialog
+## Step 1
 
 Open the ``||sparkbitO:Spark:bit Outputs||`` container and select ``||sparkbitO:rotate motor module||``. Drag the block to the workspace and connect it to the ``||basic:forever||`` function. Change the output to **2**.
 
