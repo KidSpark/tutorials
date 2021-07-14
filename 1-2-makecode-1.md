@@ -18,12 +18,6 @@ basic.forever(function () {
 
 ![toolbox](/static/1-2-makecode-toolbox.png)
 
-```blocks
-basic.clearScreen()
-basic.forever(function () {
-	
-})
-```
 
 ## Step 3 @showdialog
 
