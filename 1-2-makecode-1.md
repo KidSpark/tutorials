@@ -7,7 +7,6 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 ## Step 1 @showdialog
 
 why doesn't this show the image?
-![webusb](https://github.com/KidSpark/tutorials/docs/static/1-2-makecode-webusb.png)
 
 ```blocks
 basic.clearScreen()
@@ -29,6 +28,18 @@ basic.forever(function () {
 ## Step 3 @showdialog
 
 ![toolbox advanced](1-2-makecode-toolbox-advanced.png)
+
+```blocks
+basic.clearScreen()
+basic.forever(function () {
+	
+})
+```
+
+## Step 4 @showdialog
+
+why doesn't this show the image?
+![webusb](https://github.com/KidSpark/tutorials/docs/static/1-2-makecode-webusb.png)
 
 ```blocks
 basic.clearScreen()
