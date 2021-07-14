@@ -6,6 +6,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ## Step 1 @showdialog
 
+why doesn't this show the image?
 ![fullscreen](/static/1-2-makecode-whole-screen.png)
 
 ```blocks
