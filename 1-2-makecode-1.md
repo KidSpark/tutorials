@@ -7,7 +7,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 ## Step 1 @showdialog
 
 why doesn't this show the image?
-![fullscreen](/static/1-2-makecode-whole-screen.png)
+![webusb](https://github.com/KidSpark/tutorials/docs/static/1-2-makecode-webusb.png)
 
 ```blocks
 basic.clearScreen()
