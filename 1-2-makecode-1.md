@@ -17,7 +17,7 @@ basic.forever(function () {
 ```
 ## Step 2 @showdialog
 
-![microsoft logo](/static/Microsoft-logo_rgb_c-gray.png)
+text
 
 ```blocks
 basic.clearScreen()
@@ -28,7 +28,7 @@ basic.forever(function () {
 
 ## Step 3 @showdialog
 
-![toolbox advanced](/assets/1-2-makecode-toolbox-advanced.png)
+![toolbox advanced](https://raw.githubusercontent.com/kidspark/tutorials/assets/1-2-makecode-toolbox-advanced.png)
 
 ```blocks
 basic.clearScreen()
