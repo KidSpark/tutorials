@@ -28,7 +28,7 @@ basic.forever(function () {
 
 ## Step 3 @showdialog
 
-![toolbox advanced](https://raw.githubusercontent.com/kidspark/tutorials/assets/1-2-makecode-toolbox-advanced.png)
+![console](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-show-console.png)
 
 ```blocks
 basic.clearScreen()
@@ -40,7 +40,7 @@ basic.forever(function () {
 ## Step 4 @showdialog
 
 why doesn't this show the image?
-![webusb](assets/1-2-makecode-webusb.png)
+
 
 ```blocks
 basic.clearScreen()
