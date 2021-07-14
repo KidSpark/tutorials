@@ -7,6 +7,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 ## Step 1 @showdialog
 
 why doesn't this show the image?
+![logo](https://kidsparkeducation.org/kid_spark_logo.png)
 
 ```blocks
 basic.clearScreen()
