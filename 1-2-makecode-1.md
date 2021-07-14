@@ -8,14 +8,30 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ![fullscreen](/static/1-2-makecode-whole-screen.png)
 
+```blocks
+basic.clearScreen()
+basic.forever(function () {
+	
+})
+```
 ## Step 2 @showdialog
 
 ![toolbox](/static/1-2-makecode-toolbox.png)
+
+```blocks
+basic.clearScreen()
+basic.forever(function () {
+	
+})
+```
 
 ## Step 3 @showdialog
 
 ![toolbox advanced](1-2-makecode-toolbox-advanced.png)
 
-## Step 4 @showdialog
-
-![workspace]
+```blocks
+basic.clearScreen()
+basic.forever(function () {
+	
+})
+```
