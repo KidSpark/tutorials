@@ -17,7 +17,7 @@ basic.forever(function () {
 ```
 ## Step 2 @showdialog
 
-![toolbox](/assets/1-2-makecode-toolbox.png)
+![microsoft logo](/static/Microsoft-logo_rgb_c-gray.png)
 
 ```blocks
 basic.clearScreen()
