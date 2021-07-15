@@ -80,7 +80,7 @@ The first way is to download a file like you would download a file to a USB Flas
 
 ![Download](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-download.png)
 
-The other way is to "pair" your Spark:bit to your computer using the USB connection. To begin pairing, select the three dots (•••) beside the ``|Download|`` button and **Connect device**. Then follow the onscreen instructions. Notice the icon on the ``|Download|`` button will change when the Spark:bit is successfully paired to your computer.
+The other way is to "pair" your Spark:bit to your computer using the USB connection. To begin pairing, select the three dots ``|download:•••|`` beside the ``|Download|`` button and **Connect device**. Then follow the onscreen instructions. Notice the icon on the ``|Download|`` button will change when the Spark:bit is successfully paired to your computer.
 
 ![USB pairing](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-webusb.png)
 
