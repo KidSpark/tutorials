@@ -85,4 +85,11 @@ basic.forever(function () {
 })
 ```
 
-## Step 7 @showdialog
+## Step 7
+
+These are the main parts of MakeCode that you'll be using with Spark:bit. As you learn more about programming, you may want to explore coding with text instead of blocks. MakeCode has a toggle at the top of the editor to convert your program to JavaScript or Python, but we'll stick to blocks for now.
+
+```blocks
+basic.forever(function () {
+})
+```
