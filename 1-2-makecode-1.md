@@ -46,6 +46,10 @@ basic.forever(function () {
 
 The workspace is the large area on the right-hand side of the screen. This is where you will drag your coding blocks and connect them together to build your program. It doesn't matter where your coding blocks are located in the workspace. And there are controls at the bottom of the screen to zoom in and zoom out if you need to change the size of the workspace.
 
+There are two ways to delete a coding block from the workspace:
+* Drag it back to the toolbox, or
+* Right-click on the block and select **Delete Block**
+
 When you start a new program, usually the ``||basic:on start||`` and ``||basic:forever||`` blocks are already in the workspace. They are also available in the ``||basic:Basic||`` category.
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-whole-screen.png)
