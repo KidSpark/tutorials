@@ -46,7 +46,7 @@ basic.forever(function () {
 
 The workspace is the large area on the right-hand side of the screen. This is where you will drag your coding blocks and connect them together to build your program. It doesn't matter where your coding blocks are located in the workspace. And there are controls at the bottom of the screen to zoom in and zoom out if you need to change the size of the workspace.
 
-When you start a new program, usually the ``||basic:on start||`` and ``||basic:forever||`` blocks are already in the workspace. They are also located in the ``||basic:Basic||`` category.
+When you start a new program, usually the ``||basic:on start||`` and ``||basic:forever||`` blocks are already in the workspace. They are also be found in the ``||basic:Basic||`` category.
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-whole-screen.png)
 
@@ -63,3 +63,26 @@ When you use coding blocks from the ``||serial:Serial||`` category, a **Show con
 
 ![micro:bit simulator](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-show-console.png)
 
+```blocks
+basic.forever(function () {
+})
+```
+
+## Step 6 @showdialog
+
+There are two ways to download your program onto the Spark:bit -- both require you to connect the Spark:bit to your computer using a USB cable.
+
+The first way is to download a file like you would download a file to a USB Flash drive. Depending our your browser settings, the file may get downloaded to your computer then you will need to transfer it to the drive called **MICROBIT**.
+
+![Download](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-download.png)
+
+The other way is to "pair" your Spark:bit to your computer using the USB connection. To begin pairing, select the three dots (•••) beside the ``|Download|`` button and **Connect device**. Then follow the onscreen instructions. Notice the icon on the ``|Download|`` button will change when the Spark:bit is successfully paired to your computer.
+
+![USB pairing](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-webusb.png)
+
+```blocks
+basic.forever(function () {
+})
+```
+
+## Step 7 @showdialog
