@@ -16,11 +16,12 @@ basic.forever(function () {
 
 # The Spark:bit
 
-## Step 1
+## Step 1 @unplugged
 
 ``|Download|`` the following program to the Spark:bit.
 
-## Step 2 @showhint
+![test image](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/kse_test.png)
+
+## Step 2 
 
 Test and observe the mechanism.
-![test image](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/kse_test.png)
