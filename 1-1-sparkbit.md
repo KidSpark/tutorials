@@ -20,7 +20,7 @@ basic.forever(function () {
 
 ``|Download|`` the following program to the Spark:bit.
 
-## Step 2
+## Step 2 @showhint
 
 Test and observe the mechanism.
 ![test image](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/kse_test.png)
