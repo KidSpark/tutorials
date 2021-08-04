@@ -23,3 +23,4 @@ basic.forever(function () {
 ## Step 2
 
 Test and observe the mechanism.
+![test image](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/kse_test.png)
