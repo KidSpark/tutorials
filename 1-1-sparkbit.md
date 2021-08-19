@@ -16,12 +16,20 @@ basic.forever(function () {
 
 # The Spark:bit
 
-## Step 1 @unplugged
+## Step 1 @showdialog
 
-``|Download|`` the following program to the Spark:bit.
+Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click **Next** to proceed to the next step of the tutorial.
 
-![test image](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/kse_test.png)
+![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-1-sparkbit.png)
 
-## Step 2 
+## Step 2
 
-Test and observe the mechanism.
+``|Download|`` the following program to the Spark:bit (program already completed).
+
+## Step 3 
+
+Make sure the Spark:bit is powered on, then press the Bump Sensor and observe the mechanism. [Click here](https://youtu.be/LGxoURbz980) to see the mechanism in action.
+
+## Step 4
+
+Click **Finish** and review the next section of the curriculum packet.
