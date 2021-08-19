@@ -2,6 +2,12 @@
 pxt-sparkbit=github:kidspark/pxt-sparkbit
 ```
 
+```template
+basic.forever(function () {
+    
+})
+```
+
 # Introduction to MakeCode
 
 ## Step 1 @showdialog
