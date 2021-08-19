@@ -16,7 +16,7 @@ Observe how the ball maze can tilt in four directions: left, right, forward, and
 
 ## Step 3
 
-Expand the **Advanced** section, open the ``||functions:Functions||`` container, and select **Make a Function**. Change **doSomething** to **left** and click ``||game:Done||``.
+Expand the **Advanced** section, open the ``||functions:Functions||`` container, and select **Make a Function**. Change **doSomething** to **left** and click **Done**.
 
 A function is a named section of a program that performs a specific task. Functions are used when the same task needs to be performed multiple times in a program.
 
