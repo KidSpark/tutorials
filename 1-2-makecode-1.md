@@ -2,12 +2,6 @@
 pxt-sparkbit=github:kidspark/pxt-sparkbit
 ```
 
-```template
-basic.forever(function () {
-    
-})
-```
-
 # Introduction to MakeCode
 
 ## Step 1 @showdialog
@@ -73,9 +67,3 @@ As you learn more about programming, you may want to explore coding with text in
 ## Step 8
 
 Click **Finish** and review the next section of the curriculum packet.
-
-```blocks
-basic.forever(function () {
-    
-})
-```
