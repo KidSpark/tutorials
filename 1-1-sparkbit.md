@@ -18,9 +18,9 @@ basic.forever(function () {
 
 ## Step 1 @showdialog
 
-Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click **OK** to proceed to the next step of the tutorial.
+Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click **Ok** to proceed to the next step of the tutorial.
 
-![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-1-sparkbit.png)
+![1-1-sparkbit](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-1-sparkbit.png)
 
 ## Step 2
 
