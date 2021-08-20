@@ -16,17 +16,35 @@ There are four main parts of the MakeCode editor:
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-screen-labeled.png)
 
+```blocks
+basic.forever(function () {
+	
+})
+```
+
 ## Step 2 @showdialog
 
 By clicking on each of the categories in the toolbox, a list of coding blocks will appear for that category.
 
 ![sparkbitO menu](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-sparkbitO.png)
 
+```blocks
+basic.forever(function () {
+	
+})
+```
+
 ## Step 3 @showdialog
 
 There are additional categories that can be accessed by selecing **Advanced** at the bottom of the toolbox. This is where the ``||serial:Serial||`` category is located.
 
 ![Advanced categories](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-toolbox-advanced.png)
+
+```blocks
+basic.forever(function () {
+	
+})
+```
 
 ## Step 4 @showdialog
 
@@ -40,6 +58,12 @@ When you start a new program, usually the ``||basic:on start||`` and ``||basic:f
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-whole-screen.png)
 
+```blocks
+basic.forever(function () {
+	
+})
+```
+
 ## Step 5 @showdialog
 
 MakeCode has a built-in simulator for the micro:bit inside of the Spark:bit, but it does not include all of the input sensors and output modules for the Spark:bit. You can interact with the simulator by selecting the buttons and viewing the LEDs. Some micro:bit sensors can also be controlled from the simulator to test your program before downloading it to the Spark:bit. There are additional controls under the simulator to stop and restart the simulator, or mute the simulator audio on your computer.  
@@ -47,6 +71,12 @@ MakeCode has a built-in simulator for the micro:bit inside of the Spark:bit, but
 When you use coding blocks from the ``||serial:Serial||`` category and the Spark:bit is connected to USB, a **Show console Device** will appear below the simulator. This allows you to see additional information about the serial communications of the Spark:bit.
 
 ![micro:bit simulator](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-show-console.png)
+
+```blocks
+basic.forever(function () {
+	
+})
+```
 
 ## Step 6 @showdialog
 
@@ -58,11 +88,23 @@ After you have created a program, you will need to download it to the Spark:bit.
 
 ![USB pairing](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-webusb.png)
 
+```blocks
+basic.forever(function () {
+	
+})
+```
+
 ## Step 7
 
 These are the main parts of MakeCode that you'll be using with Spark:bit. 
 
 As you learn more about programming, you may want to explore coding with text instead of blocks. MakeCode has a toggle at the top of the editor to convert your program to JavaScript or Python, but we'll stick to blocks for now.
+
+```blocks
+basic.forever(function () {
+	
+})
+```
 
 ## Step 8
 
