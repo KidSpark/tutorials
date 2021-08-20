@@ -107,26 +107,6 @@ function backward () {
 Look at the maze and observe how the maze needs to tilt right in order for the ball to start rolling in the correct direction. Open the ``||functions:Functions||`` container, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
 
 ```blocks
-function left () {
-    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(2)
-}
-function right () {
-    sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(2)
-}
-function forward () {
-    sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(1)
-}
-function backward () {
-    sparkbitO.rotateMotorDuration(1, 100, Directions.Counterclockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(1)
-}
 right()
 ```
 

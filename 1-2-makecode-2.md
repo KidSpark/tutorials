@@ -21,7 +21,7 @@ basic.forever(function () {
 
 ## Step 3
 
-``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://youtu.be/LGxoURbz980) to see the mechanism in action.
+``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://youtu.be/WqbDVIgPN4A) to see the mechanism in action.
 
 ## Step 4
 
@@ -29,7 +29,7 @@ Adjust the direction and speed of the ``||sparkbitO:rotate motor module||`` bloc
 
 ## Step 5 
 
-``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://youtu.be/LGxoURbz980) to see the mechanism in action.
+``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://youtu.be/WqbDVIgPN4A) to see the mechanism in action.
 
 ## Step 6
 

@@ -36,7 +36,7 @@ basic.forever(function () {
 
 ## Step 3 @showdialog
 
-There are additional categories that can be accessed by selecing **Advanced** at the bottom of the toolbox. This is where the ``||serial:Serial||`` category is located.
+There are additional categories that can be accessed by selecting **Advanced** at the bottom of the toolbox. This is where the ``||serial:Serial||`` category is located.
 
 ![Advanced categories](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-toolbox-advanced.png)
 
