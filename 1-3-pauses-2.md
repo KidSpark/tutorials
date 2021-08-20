@@ -34,7 +34,7 @@ basic.forever(function () {
 ```
 ## Step 3
 
-Select another ``||sparkbitO:set light module||`` block and connect it to the bottom of the ``||sparkbitO:stop motor module||`` block.
+Select another ``||sparkbitO:set light module||`` block and connect it to the bottom of the ``||sparkbitO:stop motor module||`` block. Change color to **red**.
 
 ```blocks
 basic.forever(function () {
