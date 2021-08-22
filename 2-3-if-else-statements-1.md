@@ -82,7 +82,7 @@ Follow the steps below to download and test the program:
 * Make sure the Spark:bit is powered on and connected to the USB cable.
 * Select **Show console Device** located under the micro:bit simulator and observe the serial monitor and plotter.
 * Press the bump sensor and observe the mechanism and the serial monitor.
-* [Click here](https://youtu.be/CotPU4GNHZQ) to see a video of the mechanism in action.
+* [Click here](https://youtu.be/CotPU4GNHZQ) to see a video of the mechanism and serial monitor in action.
 * Power off the Spark:bit.
 
 ## Step 7
