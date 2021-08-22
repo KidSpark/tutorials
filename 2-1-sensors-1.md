@@ -55,7 +55,7 @@ basic.forever(function () {
 
 Follow the steps below to download and test the program:
 * ``|Download|`` the program to the Spark:bit.
-* Make sure the Spark:bit is powered on.
+* Make sure the Spark:bit is powered on and connected to the USB cable.
 * Select **Show console Device** located under the micro:bit simulator and observe the serial monitor and plotter.
 * Rotate the angle sensor and observe the speed of the motor, as well as, the serial monitor and plotter.
 * [Click here](https://youtu.be/SUECpRQ2Mxs) to see a video of the mechanism and serial monitor in action.
