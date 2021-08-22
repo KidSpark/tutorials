@@ -106,46 +106,15 @@ function backward () {
 
 Look at the maze and observe how the maze needs to tilt right in order for the ball to start rolling in the correct direction. Open the ``||functions:Functions||`` container, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
 
-```blocks
-right()
-```
+![call right](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-call-right.png)
 
 ## Step 10
 
 Determine which directions the maze must tilt in order for the ball to continue rolling through the maze. Select the correct ``||functions:call function||`` blocks by placing them in the correct order in the ``||basic:on start||`` function block.
 
-```blocks
-function right () {
-    sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(2)
-}
-function left () {
-    sparkbitO.rotateMotorDuration(2, 100, Directions.Counterclockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(2)
-}
-function backward () {
-    sparkbitO.rotateMotorDuration(1, 100, Directions.Counterclockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(1)
-}
-function forward () {
-    sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
-    basic.pause(1000)
-    sparkbitO.stopMotor(1)
-}
-right()
-forward()
-left()
-right()
-left()
-right()
-backward()
-left()
-right()
-left()
-```
+![call all](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-call-all.png)
+
+
 ## Step 11
 
 Make sure the Spark:bit is powered on. ``|Download|`` the program to the Spark:bit and observe the maze. [Click here](https://youtu.be/9f59YnOa0U4) to see the maze operating correctly.
