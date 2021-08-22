@@ -10,9 +10,15 @@ basic.forever(function () {
 
 # If/Else Statements
 
-## Step 1
+## Step 1 @showdialog
 
-Open the ``||logic:Logic||`` container, select the ``||logic:if-then-else||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
+Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click the **Ok** button to proceed to the next step of the tutorial.
+
+![if-else-statements-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/2-3-if-else-statements-1.png)
+
+## Step 2
+
+Open the ``||logic:Logic||`` container, select the ``||logic:if-else||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -25,7 +31,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 2
+## Step 3
 
 Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it after ``||logic:if||`` by replacing **true**.
 
@@ -40,7 +46,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 3
+## Step 4
 
 Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:set light module||`` block, and connect it below ``||logic:then||``.
 
@@ -55,7 +61,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+## Step 5
 
 Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:turn off light module||`` block, and connect it below ``||logic:else||``.
 
@@ -69,6 +75,16 @@ basic.forever(function () {
     }
 })
 ```
-## Step 5
+## Step 6
 
-``|Download|`` the program to the Spark:bit and select **Show console Simulator**. Press the bump sensor and observe the light module and the serial monitor.
+Follow the steps below to download and test the program:
+* ``|Download|`` the program to the Spark:bit.
+* Make sure the Spark:bit is powered on and connected to the USB cable.
+* Select **Show console Device** located under the micro:bit simulator and observe the serial monitor and plotter.
+* Press the bump sensor and observe the mechanism and the serial monitor.
+* [Click here](https://youtu.be/CotPU4GNHZQ) to see a video of the mechanism in action.
+* Power off the Spark:bit.
+
+## Step 7
+
+Click **Finish** and review the next section in the curriculum packet.
