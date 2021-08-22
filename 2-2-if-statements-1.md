@@ -4,9 +4,15 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 # If Statements
 
-## Step 1
+## Step 1 @showdialog
 
-Open the ``||logic:Logic||`` container, select the ``||logic:if-then||`` block, and connect it to the ``||basic:forever||`` function.
+Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click the **Ok** button to proceed to the next step of the tutorial.
+
+![if-statements-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/2-2-if-statements-1.png)
+
+##Step 2
+
+Open the ``||logic:Logic||`` container, select the ``||logic:if||`` block, and connect it to the ``||basic:forever||`` function.
 
 ``` blocks
 basic.forever(function () {
@@ -16,9 +22,9 @@ basic.forever(function () {
 })
 ```
 
-## Step 2
+## Step 3
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it in the ``||logic:if-then||`` block by replacing **true**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it in the ``||logic:if||`` block by replacing **true**.
 
 ```blocks
 basic.forever(function () {
@@ -28,9 +34,9 @@ basic.forever(function () {
 })
 ```
 
-## Step 3
+## Step 4
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and place it in the middle of the ``||logic:if-then||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and place it in the middle of the ``||logic:if||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -40,6 +46,15 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+## Step 5
 
-``|Download|`` the program to the Spark:bit. Press the bump sensor and observe the mechanism.
+Follow the steps below to download and test the program:
+* ``|Download|`` the program to the Spark:bit.
+* Make sure the Spark:bit is powered on.
+* Press the bump sensor and observe the mechanism.
+* [Click here](https://youtu.be/29-e-DE9Xeg) to see a video of the mechanism in action.
+* Power off the Spark:bit.
+
+## Step 6
+
+Click **Finish** and review the next section in the curriculum packet.
