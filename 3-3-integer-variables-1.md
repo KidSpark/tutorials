@@ -22,8 +22,6 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**. Select the ``||variables:change count||`` block and connect it below ``||logic:then||``.
 
-// ![set count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
-
 ```blocks
 count = 0
 basic.forever(function () {
@@ -36,6 +34,8 @@ basic.forever(function () {
 ## Step 3
 
 Add a ``||serial:serial write line||`` block to ``||basic:on start||``.
+
+![set count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
 
 ```blocks
 count = 0
