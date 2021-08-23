@@ -12,7 +12,7 @@ basic.forever(function () {
 
 # Integer Variables
 
-## Step 1
+## Step 1 @showdialog
 
 Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click the **Ok** button to proceed to the next step of the tutorial.
 
