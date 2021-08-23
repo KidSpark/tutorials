@@ -30,7 +30,8 @@
         "3-3-integer-variables-3.md",
         "3-4-boolean-variables.md",
         "_locales/es-ES/1-1-sparkbit.md",
-        "1-2-makecode-1.md"
+        "1-2-makecode-1.md",
+        "5-test-variables.md"
     ],
     "testFiles": [
         "test.ts"
