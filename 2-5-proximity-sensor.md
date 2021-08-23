@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.proximity(1, 2)))
+    serial.writeLine(sparkbitI.proximity(1, 2))
     if (true) {
         sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
@@ -27,7 +27,7 @@ Open the ``||logic:Logic||`` container, select the ``||logic:<not>||`` block, an
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.proximity(1, 2)))
+    serial.writeLine(sparkbitI.proximity(1, 2))
     if (!(false)) {
         sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
@@ -42,7 +42,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.proximity(1, 2)))
+    serial.writeLine(sparkbitI.proximity(1, 2))
     if (!(sparkbitI.proximity(1, 2))) {
         sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
