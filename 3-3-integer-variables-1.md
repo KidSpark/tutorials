@@ -31,6 +31,22 @@ basic.forever(function () {
 })
 ```
 
+## Step 2.5
+
+Set count to zero
+
+![set-count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
+
+```blocks
+let count = 0
+basic.forever(function () {
+    if (sparkbitI.bumpSensor(1)) {
+        count += 1
+    }
+})
+```
+
+
 ## Step 3
 
 Add a ``||serial:serial write line||`` block to ``||basic:on start||``.
