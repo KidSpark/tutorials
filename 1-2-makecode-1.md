@@ -18,23 +18,11 @@ Also, notice the toggle at the top to switch between blocks and text, but we'll 
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-screen-labeled.png)
 
-```blocks
-basic.forever(function () {
-	
-})
-```
-
 ## Step 2 @showdialog
 
 By clicking on each of the categories in the toolbox, a list of coding blocks will appear for that category.
 
 ![sparkbitO menu](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-sparkbitO.png)
-
-```blocks
-basic.forever(function () {
-	
-})
-```
 
 ## Step 3 @showdialog
 
@@ -43,9 +31,7 @@ There are additional categories that can be accessed by selecting **Advanced** a
 ![Advanced categories](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-toolbox-advanced.png)
 
 ```blocks
-basic.forever(function () {
-	
-})
+serial.writeLine("")
 ```
 
 ## Step 4 @showdialog
@@ -74,12 +60,6 @@ When you use coding blocks from the ``||serial:Serial||`` category and the Spark
 
 ![micro:bit simulator](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-show-console.png)
 
-```blocks
-basic.forever(function () {
-	
-})
-```
-
 ## Step 6 @showdialog
 
 After you have created a program, you will need to download it to the Spark:bit. In order to do this, you will need to pair the Spark:bit to your computer using a USB connection.
@@ -90,16 +70,9 @@ After you have created a program, you will need to download it to the Spark:bit.
 
 ![USB pairing](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-webusb.png)
 
-```blocks
-basic.forever(function () {
-	
-})
-```
-
 ## Step 7
 
 These are the main parts of MakeCode that you'll be using with Spark:bit. 
-
 
 ## Step 8
 
