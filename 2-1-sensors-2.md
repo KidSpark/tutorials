@@ -22,7 +22,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select a ``||sparkbitI:bu
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.bumpSensor(1)))
+    serial.writeLine(sparkbitI.bumpSensor(1))
 })
 ```
 
