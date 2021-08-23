@@ -17,7 +17,13 @@ basic.forever(function () {
 
 # Boolean Variables
 
-## Step 1
+## Step 1 @showdialog
+
+Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click the **Ok** button to proceed to the next step of the tutorial.
+
+![boolean-variables](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-4-boolean-variables.png)
+
+## Step 2
 
 Open the ``||variables:Variables||`` container and **Make a Variable** called **toggle**. Add the ``||variables:toggle||`` block as the condition for the ``||logic:if-else||`` statement.
 
@@ -35,7 +41,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 2
+## Step 3
 
 Open the ``||variables:Variables||`` container, select the ``||variables:set toggle||`` block, and connect it below the top ``||sparkbitO:set light module||`` to red block.
 
@@ -54,7 +60,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 3
+## Step 4
 
 Open the ``||logic:Logic||`` container, select the ``||logic:<false>||`` block, and place it in the ``||variables:set toggle||`` block.
 
@@ -73,7 +79,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+## Step 5
 
 Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set light module||`` to green block, and set to ``||logic:<true>||``.
 
@@ -93,7 +99,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 5
+## Step 6
 
 Add a ``||serial:serial write line||`` for ``||variables:toggle||`` at the end of the ``||logic:if||`` statement below the ``||basic:pause||`` block.
 
@@ -114,7 +120,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 6
+## Step 7
 
 Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic:on start||``.
 
@@ -138,8 +144,17 @@ basic.forever(function () {
 })
 ```
 
-## Step 7
+## Step 8
 
-``|Download|`` the program to the Spark:bit and select **Show console Simulator**.
+Follow the steps below to download and test the program:
+* ``|Download|`` the program to the Spark:bit.
+* Make sure the Spark:bit is powered on and connected to the USB cable.
+* Select **Show console Device** located under the micro:bit simulator and observe the serial monitor.
 * Press the bump sensor and observe the mechanism (light module) and the serial monitor.
 * Press the bump sensor a second time and observe the mechanism and the serial monitor.
+* [Click here](https://youtu.be/X5Tcty-1vLA) to see a video of the mechanism and serial monitor in action.
+* Power off the Spark:bit.
+
+## Step 9
+
+Click **Finish** and review the next section in the curriculum packet.
