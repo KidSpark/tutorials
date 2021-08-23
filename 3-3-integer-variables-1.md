@@ -55,12 +55,12 @@ basic.forever(function () {
 ## Step 4
 
 
-Add a ``||serial:serial write line||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
+Add a ``||serial:serial write number||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
 
 
 ```blocks
 let count = 0
-serial.writeLine("")
+serial.writeNumber(0)
 ```
 
 ```blocks
@@ -73,18 +73,18 @@ basic.forever(function () {
 
 ## Step 5
 
-Add a ``||serial:serial write line||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
+Add a ``||serial:serial write number||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
 
 ```blocks
 let count = 0
-serial.writeLine("")
+serial.writeNumber(0)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
-        serial.writeLine("")
+        serial.writeNumber(0)
         basic.pause(500)
     }
 })
@@ -92,20 +92,20 @@ basic.forever(function () {
 
 ## Step 6
 
-Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
+Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write number||`` blocks.
 
 ![set-serial-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-serial-1.png)
 
 ```blocks
 count = 0
-serial.writeLine("" + (count))
+serial.writeNumber(count)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
-        serial.writeLine("" + (count))
+        serial.writeNumber(count)
         basic.pause(500)
     }
 })
