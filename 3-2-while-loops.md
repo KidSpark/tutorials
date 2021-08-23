@@ -12,7 +12,13 @@ basic.forever(function () {
 
 # While Loops
 
-## Step 1
+## Step 1 @showdialog
+
+Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click the **Ok** button to proceed to the next step of the tutorial.
+
+![if-statements-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/2-2-if-statements-1.png)
+
+## Step 2
 
 Open the ``||loops:Loops||`` container, select the ``||loops:while||`` block, and connect it below ``||logic:then||``.
 
@@ -26,9 +32,9 @@ basic.forever(function () {
 })
 ```
 
-## Step 2
+## Step 3
 
-Add a ``||logic:not||`` block to the ``||loops:while||`` loop.
+Add a ``||logic:<not>||`` block to the ``||loops:while||`` loop.
 
 ```blocks
 basic.forever(function () {
@@ -40,9 +46,9 @@ basic.forever(function () {
 })
 ```
 
-## Step 3
+## Step 4
 
-Add a ``||sparkbitI:bump sensor||`` block inside the ``||logic:not||`` block, and change to **input 2**.
+Add a ``||sparkbitI:bump sensor||`` block inside the ``||logic:<not>||`` block, and change to **input 2**.
 
 ```blocks
 basic.forever(function () {
@@ -54,9 +60,24 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+## Step 5
 
-Add a ``||sparkbitO:set light module||`` block inside the ``||loops:while||`` loop, and change the color to **red**. Add a ``||sparkbitO:turn off light module||`` block outside the ``||loops:while||`` loop but inside the ``||logic:if-then||`` statement.
+Add a ``||sparkbitO:set light module||`` block inside the ``||loops:while||`` loop, and change the color to **red**.
+
+```blocks
+basic.forever(function () {
+    if (sparkbitI.bumpSensor(1)) {
+        while (!(sparkbitI.bumpSensor(2))) {
+            sparkbitO.setLightModule(1, 100, Colors.Red)
+        }
+        
+    }
+})
+```
+
+## Step 6
+
+Add a ``||sparkbitO:turn off light module||`` block outside the ``||loops:while||`` loop but inside the ``||logic:if||`` statement.
 
 ```blocks
 basic.forever(function () {
@@ -69,6 +90,15 @@ basic.forever(function () {
 })
 ```
 
-## Step 5
+## Step 7
 
-``|Download|`` the program to the Spark:bit, press the bump sensors, and observe the mechanism.
+Follow the steps below to download and test the program:
+* ``|Download|`` the program to the Spark:bit.
+* Make sure the Spark:bit is powered on.
+* Press the bump sensor and observe the mechanism.
+* [Click here](https://youtu.be/slq2tB1-yxU) to see a video of the mechanism in action.
+* Power off the Spark:bit.
+
+## Step 8
+
+Click **Finish** and review the next section in the curriculum packet.
