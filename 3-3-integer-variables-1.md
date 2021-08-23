@@ -20,6 +20,8 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
+Open the ``||basic:Basic||`` container and add ``||basic:on start||`` to the workspace.
+
 Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**.
 
 Select the ``||variables:set count||`` block and add it to ``||basic:on start||``. Confirm the initial **value is 0**. 
