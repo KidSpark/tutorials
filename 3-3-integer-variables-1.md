@@ -94,7 +94,7 @@ basic.forever(function () {
 
 Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write number||`` blocks.
 
-![set-serial-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-serial-1.png)
+![set-serial-number](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-serial-number.png)
 
 ```blocks
 count = 0
