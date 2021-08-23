@@ -96,8 +96,8 @@ basic.forever(function () {
 Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
 
 ```blocks
-count = 0
-serial.writeLine(count)
+let count = 0
+serial.writeNumber(count)
 ```
 
 ```blocks
