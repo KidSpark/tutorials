@@ -23,7 +23,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**. Select the ``||variables:change count||`` block and connect it below ``||logic:then||``.
 
 ```blocks
-let count = 0.0
+count = 0.0
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -36,7 +36,7 @@ basic.forever(function () {
 Add a ``||serial:serial write line||`` block to ``||basic:on start||``.
 
 ```blocks
-let count = 0.0
+count = 0.0
 serial.writeLine("")
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
@@ -50,7 +50,7 @@ basic.forever(function () {
 Add a ``||serial:serial write line||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
 
 ```blocks
-let count = 0.0
+count = 0.0
 serial.writeLine("")
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
@@ -66,7 +66,7 @@ basic.forever(function () {
 Open the ``||variables:Variable||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
 
 ```blocks
-let count = 0.0
+count = 0.0
 serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
