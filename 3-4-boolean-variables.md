@@ -19,7 +19,7 @@ basic.forever(function () {
 
 ## Step 1
 
-Open the ``||variables:Variables||`` container and **Make a Variable** called **toggle**. Add the ``||variables:toggle||`` block as the condition for the ``||logic:if-then-else||`` statement.
+Open the ``||variables:Variables||`` container and **Make a Variable** called **toggle**. Add the ``||variables:toggle||`` block as the condition for the ``||logic:if-else||`` statement.
 
 ```blocks
 basic.forever(function () {
@@ -56,7 +56,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||logic:Logic||`` container, select the ``||logic:false||`` block, and place it in the ``||variables:set toggle||`` block.
+Open the ``||logic:Logic||`` container, select the ``||logic:<false>||`` block, and place it in the ``||variables:set toggle||`` block.
 
 ```blocks
 let toggle = false
@@ -75,7 +75,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set light module||`` to green block, and set to ``||logic:true||``.
+Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set light module||`` to green block, and set to ``||logic:<true>||``.
 
 ```blocks
 let toggle = false
@@ -95,7 +95,30 @@ basic.forever(function () {
 
 ## Step 5
 
-Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic:on start||`` and one at the end of the ``||logic:if-then||`` statement below the ``||basic:pause||`` block.
+Add a ``||serial:serial write line||`` for ``||variables:toggle||`` at the end of the ``||logic:if||`` statement below the ``||basic:pause||`` block.
+
+```blocks
+let toggle = false
+basic.forever(function () {
+    if (sparkbitI.bumpSensor(1)) {
+        if (toggle) {
+            sparkbitO.setLightModule(1, 100, Colors.Red)
+            toggle = false
+        } else {
+            sparkbitO.setLightModule(1, 100, Colors.Green)
+            toggle = true
+        }
+        basic.pause(500)
+        serial.writeLine("" + (toggle))
+    }
+})
+```
+
+## Step 6
+
+Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic:on start||``.
+
+And inilize the variable ``||variables:toggle||`` by adding ``||variables: set toggle||`` to ``||logic:<false>||`` to ``||basic:on start||``.
 
 ```blocks
 let toggle = false
@@ -115,7 +138,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 6
+## Step 7
 
 ``|Download|`` the program to the Spark:bit and select **Show console Simulator**.
 * Press the bump sensor and observe the mechanism (light module) and the serial monitor.
