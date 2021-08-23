@@ -22,6 +22,8 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**. Select the ``||variables:change count||`` block and connect it below ``||logic:then||``.
 
+![set count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
+
 ```blocks
 let count = 0
 basic.forever(function () {
@@ -30,8 +32,6 @@ basic.forever(function () {
     }
 })
 ```
-
-![set count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
 
 ## Step 3
 
