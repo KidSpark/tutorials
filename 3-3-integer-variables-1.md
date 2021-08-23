@@ -23,7 +23,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**. Select the ``||variables:change count||`` block and connect it below ``||logic:then||``.
 
 ```blocks
-let count = 0
+let count = 0.0
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -33,26 +33,10 @@ basic.forever(function () {
 
 ## Step 3
 
-Set count to zero
-
-![set-count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
-
-```blocks
-let count = 0
-basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
-        count += 1
-    }
-})
-```
-
-
-## Step 4
-
 Add a ``||serial:serial write line||`` block to ``||basic:on start||``.
 
 ```blocks
-let count = 0
+let count = 0.0
 serial.writeLine("")
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
@@ -61,12 +45,12 @@ basic.forever(function () {
 })
 ```
 
-## Step 5
+## Step 4
 
 Add a ``||serial:serial write line||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
 
 ```blocks
-let count = 0
+let count = 0.0
 serial.writeLine("")
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
@@ -77,12 +61,12 @@ basic.forever(function () {
 })
 ```
 
-## Step 6
+## Step 5
 
 Open the ``||variables:Variable||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
 
 ```blocks
-let count = 0
+let count = 0.0
 serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
@@ -93,7 +77,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 7
+## Step 6
 
 Follow the steps below to download and test the program:
 * ``|Download|`` the program to the Spark:bit.
@@ -103,6 +87,6 @@ Follow the steps below to download and test the program:
 * [Click here](https://youtu.be/i9J7VC1TM9U) to see a video of the mechanism and serial monitor in action.
 * Power off the Spark:bit.
 
-## Step 8
+## Step 7
 
 Click **Finish** and review the next section in the curriculum packet.
