@@ -22,7 +22,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**.
 
-Select the ``||variables:set count||`` block and add it to ``||basic:on start||``. Confirm the **value is 0**. 
+Select the ``||variables:set count||`` block and add it to ``||basic:on start||``. Confirm the initial **value is 0**. 
 
 ```blocks
 let count = 0
