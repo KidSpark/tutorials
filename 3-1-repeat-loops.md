@@ -12,7 +12,13 @@ basic.forever(function () {
 
 # Repeat Loops
 
-## Step 1
+## Step 1 @showdialog
+
+Follow the step-by-step instructions in the curriculum packet for this lesson to assemble the mechanism shown below. Then click the **Ok** button to proceed to the next step of the tutorial.
+
+![repear-loops](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-1-repeat-loops.png)
+
+## Step 2
 
 Open the ``||loops:Loops||`` container, select the ``||loops:repeat||`` block, and connect it below ``||logic:then||``. Change the value to **3**.
 
@@ -26,7 +32,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 2
+## Step 3
 
 Add a ``||sparkbitO:rotate motor module||`` and a ``||basic:pause||`` block inside the ``||loops:repeat||`` loop. Change the pause to **1 second**.
 
@@ -41,7 +47,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 3
+## Step 4
 
 Add a ``||sparkbitO:stop motor module||`` and a ``||basic:pause||`` block to the ``||loops:repeat||`` loop. Change the pause to **1 second**.
 
@@ -58,6 +64,21 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+## Step 5
 
-``|Download|`` the program to the Spark:bit, press the bump sensor, and observe the mechanism. Experiment by changing the number of times you want the commands to repeat.
+Follow the steps below to download and test the program:
+* ``|Download|`` the program to the Spark:bit.
+* Make sure the Spark:bit is powered on.
+* Press the bump sensor and observe the mechanism.
+* [Click here](https://youtu.be/d6GwBTKQqAs) to see a video of the mechanism in action.
+
+## Step 6
+
+Experiment by changing the number of times you want the commands to repeat. ``|Download|`` the program and observe the mechanism.
+
+## Step 7
+
+Power off the Spark:bit, then click **Finish** and review the next section in the curriculum packet.
+
+
+
