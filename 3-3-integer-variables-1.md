@@ -36,7 +36,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 2.5
+## Step 3
 
 Open the ``||variables:Variables||`` container, select the ``||variables:change count||`` block, and connect it below ``||logic:then||``.
 
@@ -52,8 +52,7 @@ basic.forever(function () {
 })
 ```
 
-
-## Step 3
+## Step 4
 
 
 Add a ``||serial:serial write line||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
@@ -72,7 +71,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+## Step 5
 
 Add a ``||serial:serial write line||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
 
@@ -91,7 +90,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 5
+## Step 6
 
 Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
 
@@ -107,7 +106,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 6
+## Step 7
 
 Follow the steps below to download and test the program:
 * ``|Download|`` the program to the Spark:bit.
@@ -117,6 +116,6 @@ Follow the steps below to download and test the program:
 * [Click here](https://youtu.be/i9J7VC1TM9U) to see a video of the mechanism and serial monitor in action.
 * Power off the Spark:bit.
 
-## Step 7
+## Step 8
 
 Click **Finish** and review the next section in the curriculum packet.
