@@ -70,7 +70,7 @@ function left () {
 
 Look at the maze and observe how the motor module that is connected to output 2 on the Spark:bit needs to rotate clockwise in order to tilt the maze right. 
 
-![1-4-maze-left](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-maze-left.png)
+![1-4-maze-right](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-maze-right.png)
 
 ## Step 9
 
@@ -116,20 +116,26 @@ function backward () {
 }
 ```
 
-## Step 11
+## Step 11 @showdialog
 
-Look at the maze and observe how the maze needs to tilt right in order for the ball to start rolling in the correct direction. Open the ``||functions:Functions||`` container, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
+Look at the maze and observe how the maze needs to tilt right in order for the ball to start rolling in the correct direction. 
+
+![1-4-maze-ball-rolling-right](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-maze-ball-rolling-right.png)
+
+## Step 12
+
+Open the ``||functions:Functions||`` container, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
 
 ![call right](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-call-right.png)
 
-## Step 12
+## Step 13
 
 Determine which directions the maze must tilt in order for the ball to continue rolling through the maze. Select the correct ``||functions:call function||`` blocks by placing them in the correct order in the ``||basic:on start||`` function block.
 
 ![call all](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-call-all.png)
 
 
-## Step 13
+## Step 14
 
 Make sure the Spark:bit is powered on. ``|Download|`` the program to the Spark:bit and observe the maze. [Click here](https://youtu.be/9f59YnOa0U4) to see the maze operating correctly.
 
@@ -138,6 +144,6 @@ Did your maze function correctly? If not, you may need to go back through your p
 * Make sure the ``||functions:call function||`` blocks are in the correct order. 
 * Make sure each direction ``||functions:function||`` includes a 1 second (1000 ms) ``||basic:pause||``.
 
-## Step 14
+## Step 15
 
 Click **Finish** and review the next section in the curriculum packet.
