@@ -5,9 +5,6 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 ```template
 let count = 0
 serial.writeLine("" + (count))
-```
-
-```template
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -30,8 +27,6 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 Right click on the ``||logic:if||`` statement and select **Duplicate**. Add the second ``||logic:if||`` statement to the ``||basic:forever||`` funcation.
 
 ```blocks
-let count = 0
-serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -46,13 +41,13 @@ basic.forever(function () {
 })
 ```
 
+![set-serial-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-serial-1.png)
+
 ## Step 3
 
 On the bottom ``||logic:if||`` statement, change bump sensor to **input 2** and change count to **-1**.
 
 ```blocks
-let count = 0
-serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -66,6 +61,8 @@ basic.forever(function () {
     }
 })
 ```
+
+![set-serial-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-serial-1.png)
 
 ## Step 4
 
