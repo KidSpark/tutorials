@@ -65,7 +65,7 @@ basic.forever(function () {
 Open the ``||logic:Logic||`` container, select the ``||logic:<false>||`` block, and place it in the ``||variables:set toggle||`` block.
 
 ```blocks
-let toggle = false
+toggle = false
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
@@ -84,7 +84,7 @@ basic.forever(function () {
 Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set light module||`` to green block, and set to ``||logic:<true>||``.
 
 ```blocks
-let toggle = false
+toggle = false
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
@@ -104,7 +104,7 @@ basic.forever(function () {
 Add a ``||serial:serial write line||`` for ``||variables:toggle||`` at the end of the ``||logic:if||`` statement below the ``||basic:pause||`` block.
 
 ```blocks
-let toggle = false
+toggle = false
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
@@ -127,7 +127,7 @@ Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic
 And inilize the variable ``||variables:toggle||`` by adding ``||variables: set toggle||`` to ``||logic:<false>||`` to ``||basic:on start||``.
 
 ```blocks
-let toggle = false
+toggle = false
 serial.writeLine("" + (toggle))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
