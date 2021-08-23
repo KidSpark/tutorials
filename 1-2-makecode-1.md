@@ -14,6 +14,8 @@ There are four main parts of the MakeCode editor:
 * **micro:bit Simulator** - enables you to run some of your code on a virtual micro:bit. The micro:bit is a small computer inside the Spark:bit that has buttons, sensors, LEDs, and wireless capabilities.
 * **Download Button** - how you will download your program to run on the Spark:bit.
 
+Also, notice the toggle at the top to switch between blocks and text, but we'll stick to blocks for now.
+
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-screen-labeled.png)
 
 ```blocks
@@ -98,13 +100,6 @@ basic.forever(function () {
 
 These are the main parts of MakeCode that you'll be using with Spark:bit. 
 
-As you learn more about programming, you may want to explore coding with text instead of blocks. MakeCode has a toggle at the top of the editor to convert your program to JavaScript or Python, but we'll stick to blocks for now.
-
-```blocks
-basic.forever(function () {
-	
-})
-```
 
 ## Step 8
 
