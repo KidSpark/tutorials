@@ -30,9 +30,7 @@ There are additional categories that can be accessed by selecting **Advanced** a
 
 ![Advanced categories](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-toolbox-advanced.png)
 
-```blocks
-serial.writeLine("")
-```
+
 
 ## Step 4 @showdialog
 
@@ -46,11 +44,7 @@ When you start a new program, usually the ``||basic:on start||`` and ``||basic:f
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-whole-screen.png)
 
-```blocks
-basic.forever(function () {
-	
-})
-```
+
 
 ## Step 5 @showdialog
 
