@@ -5,6 +5,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 ```template
 let count = 0
 serial.writeLine("" + (count))
+serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
