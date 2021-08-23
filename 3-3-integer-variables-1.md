@@ -97,6 +97,11 @@ Open the ``||variables:Variables||`` container, select the ``||variables:count||
 ![set-serial-1](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-serial-1.png)
 
 ```blocks
+count = 0
+serial.writeLine("" + (count))
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
