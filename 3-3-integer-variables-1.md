@@ -31,6 +31,8 @@ basic.forever(function () {
 })
 ```
 
+![set count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
+
 ## Step 3
 
 Add a ``||serial:serial write line||`` block to ``||basic:on start||``.
