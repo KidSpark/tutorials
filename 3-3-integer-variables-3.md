@@ -28,7 +28,7 @@ basic.forever(function () {
 
 ## Step 1
 
-Open the ``||logic:Logic||`` container, select the ``||logic:comparison||`` block with the equal sign, place it in the bottom ``||logic:if-then||`` statement.
+Open the ``||logic:Logic||`` container, select the number ``||logic:<comparison>||`` block with the equal sign, place it in the bottom ``||logic:if-then||`` statement.
 
 ```blocks
 let count = 0
