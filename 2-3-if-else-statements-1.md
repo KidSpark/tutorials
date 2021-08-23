@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.bumpSensor(1)))
+    serial.writeLine(sparkbitI.bumpSensor(1))
 })
 ```
 
@@ -22,7 +22,7 @@ Open the ``||logic:Logic||`` container, select the ``||logic:if-else||`` block, 
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.bumpSensor(1)))
+    serial.writeLine(sparkbitI.bumpSensor(1))
     if (true) {
     	
     } else {
@@ -37,7 +37,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.bumpSensor(1)))
+    serial.writeLine(sparkbitI.bumpSensor(1))
     if (sparkbitI.bumpSensor(1)) {
     	
     } else {
@@ -52,7 +52,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.bumpSensor(1)))
+    serial.writeLine(sparkbitI.bumpSensor(1))
     if (sparkbitI.bumpSensor(1)) {
         sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
@@ -67,7 +67,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + (sparkbitI.bumpSensor(1)))
+    serial.writeLine(sparkbitI.bumpSensor(1))
     if (sparkbitI.bumpSensor(1)) {
         sparkbitO.setLightModule(1, 100, Colors.Green)
     } else {
