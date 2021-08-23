@@ -4,16 +4,16 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 count = 0
-serial.writeLine("" + (count))
+serial.writeNumber(count)
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
-        serial.writeLine("" + (count))
+        serial.writeNumber(count)
         basic.pause(500)
     }
     if (sparkbitI.bumpSensor(2)) {
         count += -1
-        serial.writeLine("" + (count))
+        serial.writeNumber(count)
         basic.pause(500)
     }
     if (true) {
@@ -38,16 +38,16 @@ Open the ``||logic:Logic||`` container, select the number ``||logic:<comparison>
 
 ```blocks
 count = 0
-serial.writeLine("" + (count))
+serial.writeNumber(count)
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
-        serial.writeLine("" + (count))
+        serial.writeNumber(count)
         basic.pause(500)
     }
     if (sparkbitI.bumpSensor(2)) {
         count += -1
-        serial.writeLine("" + (count))
+        serial.writeNumber(count)
         basic.pause(500)
     }
     if (0 == 0) {
@@ -64,16 +64,16 @@ Add the ``||variables:count||`` variable to the first part of the ``||logic:<com
 
 ```blocks
 count = 0
-serial.writeLine("" + (count))
+serial.writeNumber(count)
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
-        serial.writeLine("" + (count))
+        serial.writeNumber(count)
         basic.pause(500)
     }
     if (sparkbitI.bumpSensor(2)) {
         count += -1
-        serial.writeLine("" + (count))
+        serial.writeNumber(count)
         basic.pause(500)
     }
     if (count == 5) {
