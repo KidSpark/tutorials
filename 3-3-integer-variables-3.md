@@ -3,7 +3,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 ```
 
 ```template
-let count = 0
+count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
@@ -37,7 +37,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 Open the ``||logic:Logic||`` container, select the number ``||logic:<comparison>||`` block with the equal sign <0 = 0>, place it in the bottom ``||logic:if||`` statement.
 
 ```blocks
-let count = 0
+count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
@@ -63,7 +63,7 @@ basic.forever(function () {
 Add the ``||variables:count||`` variable to the first part of the ``||logic:<comparison>||`` block, and change the second part of the ``||logic:<comparison>||`` block to **5**.
 
 ```blocks
-let count = 0
+count = 0
 serial.writeLine("" + (count))
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
