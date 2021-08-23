@@ -20,7 +20,25 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**. Select the ``||variables:change count||`` block and connect it below ``||logic:then||``.
+Open the ``||variables:Variables||`` container, select **Make a Variable**, name it **count**, and select **Ok**.
+
+Select the ``||variables:set count||`` block and add it to ``||basic:on start||``. Confirm the **value is 0**. 
+
+```blocks
+let count = 0
+```
+
+```blocks
+basic.forever(function () {
+    if (sparkbitI.bumpSensor(1)) {
+        
+    }
+})
+```
+
+## Step 2.5
+
+Open the ``||variables:Variables||`` container, select the ``||variables:change count||`` block, and connect it below ``||logic:then||``.
 
 ```blocks
 let count = 0
@@ -34,18 +52,19 @@ basic.forever(function () {
 })
 ```
 
+
 ## Step 3
 
-Add a ``||serial:serial write line||`` block to ``||basic:on start||``.
 
-![set count](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/3-3-set-count.png)
+Add a ``||serial:serial write line||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
+
 
 ```blocks
 let count = 0
+serial.writeLine("")
 ```
 
 ```blocks
-serial.writeLine("")
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -74,7 +93,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Open the ``||variables:Variable||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
+Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
 
 ```blocks
 let count = 0
