@@ -30,7 +30,9 @@ There are additional categories that can be accessed by selecting **Advanced** a
 
 ![Advanced categories](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-toolbox-advanced.png)
 
-
+```blocks
+serial.writeLine("")
+```
 
 ## Step 4 @showdialog
 
@@ -43,8 +45,6 @@ There are two ways to delete a coding block from the workspace:
 When you start a new program, usually the ``||basic:on start||`` and ``||basic:forever||`` blocks are already in the workspace. They are also available in the ``||basic:Basic||`` category.
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-whole-screen.png)
-
-
 
 ## Step 5 @showdialog
 
