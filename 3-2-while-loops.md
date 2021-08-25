@@ -68,7 +68,7 @@ Add a ``||sparkbitO:set light module||`` block inside the ``||loops:while||`` lo
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         while (!(sparkbitI.bumpSensor(2))) {
-            sparkbitO.setLightModule(1, 100, Colors.Red)
+            sparkbitO.setLightModule(1, Colors.Red, 100)
         }
         
     }
@@ -83,7 +83,7 @@ Add a ``||sparkbitO:turn off light module||`` block outside the ``||loops:while|
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         while (!(sparkbitI.bumpSensor(2))) {
-            sparkbitO.setLightModule(1, 100, Colors.Red)
+            sparkbitO.setLightModule(1, Colors.Red, 100)
         }
         sparkbitO.stopLight(1)
     }
