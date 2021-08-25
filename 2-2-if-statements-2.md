@@ -46,7 +46,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 basic.forever(function () {
     serial.writeNumber(sparkbitI.readAngleSensorDeg(DegreePercent.Degree, 1))
     if (sparkbitI.testAngleSensorDeg(1, LogicCompare.LogicCompareGT, 200)) {
-        sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
+        sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
     }
     if (true) {
     	
@@ -62,7 +62,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 basic.forever(function () {
     serial.writeNumber(sparkbitI.readAngleSensorDeg(DegreePercent.Degree, 1))
     if (sparkbitI.testAngleSensorDeg(1, LogicCompare.LogicCompareGT, 200)) {
-        sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
+        sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
     }
     if (sparkbitI.testAngleSensorDeg(1, LogicCompare.LogicCompareLT, 200)) {
     	
@@ -78,7 +78,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 basic.forever(function () {
     serial.writeNumber(sparkbitI.readAngleSensorDeg(DegreePercent.Degree, 1))
     if (sparkbitI.testAngleSensorDeg(1, LogicCompare.LogicCompareGT, 200)) {
-        sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
+        sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
     }
     if (sparkbitI.testAngleSensorDeg(1, LogicCompare.LogicCompareLT, 200)) {
         sparkbitO.stopMotor(1)
