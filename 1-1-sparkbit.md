@@ -5,10 +5,10 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 ```template
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
-        sparkbitO.setLightModule(1, 23, Colors.Green)
-        sparkbitO.rotateMotorDuration(2, 100, Directions.Clockwise)
+        sparkbitO.setLightModule(1, Colors.Green, 23)
+        sparkbitO.rotateMotorDuration(2, Directions.Clockwise, 100)
     } else {
-        sparkbitO.setLightModule(1, 23, Colors.Red)
+        sparkbitO.setLightModule(1, Colors.Red, 23)
         sparkbitO.stopMotor(2)
     }
 })
