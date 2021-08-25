@@ -54,7 +54,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 basic.forever(function () {
     serial.writeLine(sparkbitI.bumpSensor(1))
     if (sparkbitI.bumpSensor(1)) {
-        sparkbitO.setLightModule(1, 100, Colors.Green)
+        sparkbitO.setLightModule(1, Colors.Green, 100)
     } else {
     	
     }
@@ -69,7 +69,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 basic.forever(function () {
     serial.writeLine(sparkbitI.bumpSensor(1))
     if (sparkbitI.bumpSensor(1)) {
-        sparkbitO.setLightModule(1, 100, Colors.Green)
+        sparkbitO.setLightModule(1, Colors.Green, 100)
     } else {
         sparkbitO.stopLight(1)
     }
