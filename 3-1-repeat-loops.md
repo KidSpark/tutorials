@@ -40,7 +40,7 @@ Add a ``||sparkbitO:rotate motor module||`` and a ``||basic:pause||`` block insi
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         for (let index = 0; index < 3; index++) {
-            sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
+            sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
             basic.pause(1000)
         }
     }
@@ -55,7 +55,7 @@ Add a ``||sparkbitO:stop motor module||`` and a ``||basic:pause||`` block to the
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         for (let index = 0; index < 3; index++) {
-            sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
+            sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
             basic.pause(1000)
             sparkbitO.stopMotor(1)
             basic.pause(1000)
@@ -79,6 +79,3 @@ Experiment by changing the number of times you want the commands to repeat. ``|D
 ## Step 7
 
 Power off the Spark:bit, then click **Finish** and review the next section in the curriculum packet.
-
-
-
