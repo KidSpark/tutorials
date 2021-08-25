@@ -41,7 +41,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
-        sparkbitO.rotateMotorDuration(1, 100, Directions.Clockwise)
+        sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
     }
 })
 ```
