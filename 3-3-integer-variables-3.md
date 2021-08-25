@@ -17,7 +17,7 @@ basic.forever(function () {
         basic.pause(500)
     }
     if (true) {
-        sparkbitO.setLightModule(1, 100, Colors.Green)
+        sparkbitO.setLightModule(1, Colors.Green, 100)
     } else {
         sparkbitO.stopLight(1)
     }
@@ -51,7 +51,7 @@ basic.forever(function () {
         basic.pause(500)
     }
     if (0 == 0) {
-        sparkbitO.setLightModule(1, 100, Colors.Green)
+        sparkbitO.setLightModule(1, Colors.Green, 100)
     } else {
         sparkbitO.stopLight(1)
     }
@@ -77,7 +77,7 @@ basic.forever(function () {
         basic.pause(500)
     }
     if (count == 5) {
-        sparkbitO.setLightModule(1, 100, Colors.Green)
+        sparkbitO.setLightModule(1, Colors.Green, 100)
     } else {
         sparkbitO.stopLight(1)
     }
