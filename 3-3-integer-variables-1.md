@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
     	
     }
 })
@@ -30,7 +30,7 @@ let count = 0
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         
     }
 })
@@ -46,7 +46,7 @@ let count = 0
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
     }
 })
@@ -65,7 +65,7 @@ serial.writeNumber(0)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
     }
 })
@@ -82,7 +82,7 @@ serial.writeNumber(0)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
         serial.writeNumber(0)
         basic.pause(500)
@@ -101,7 +101,7 @@ serial.writeNumber(count)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
         serial.writeNumber(count)
         basic.pause(500)
