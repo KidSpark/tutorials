@@ -4,11 +4,11 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         if (true) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
         } else {
-            sparkbitO.setLightModule(1, Colors.Green, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
         }
         basic.pause(500)
     }
@@ -36,11 +36,11 @@ toggle = false
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         if (true) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
         } else {
-            sparkbitO.setLightModule(1, Colors.Green, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
         }
         basic.pause(500)
     }
@@ -58,11 +58,11 @@ serial.writeLine(toggle)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         if (true) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
         } else {
-            sparkbitO.setLightModule(1, Colors.Green, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
         }
         basic.pause(500)
     }
@@ -80,11 +80,11 @@ serial.writeLine(toggle)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
         } else {
-            sparkbitO.setLightModule(1, Colors.Green, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
         }
         basic.pause(500)
     }
@@ -104,12 +104,12 @@ serial.writeLine(toggle)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
             toggle = false
         } else {
-            sparkbitO.setLightModule(1, Colors.Green, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
         }
         basic.pause(500)
     }
@@ -127,12 +127,12 @@ serial.writeLine(toggle)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
             toggle = false
         } else {
-            sparkbitO.setLightModule(1, Colors.Green, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
             toggle = true
         }
         basic.pause(500)
@@ -151,12 +151,12 @@ serial.writeLine(toggle)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         if (toggle) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
             toggle = false
         } else {
-            sparkbitO.setLightModule(1, Colors.Green, 100)
+            sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
             toggle = true
         }
         basic.pause(500)
