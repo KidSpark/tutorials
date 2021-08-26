@@ -25,7 +25,7 @@ Open the ``||basic:Basic||`` container and select the ``||basic:pause||`` block.
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorModuke(2, SparkbitDirection.Clockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
     basic.pause(100)
 })
 ```
