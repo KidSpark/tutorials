@@ -48,16 +48,17 @@ basic.forever(function () {
 
 ## Step 3
 
-Add the ``||variables:toggle||`` block as the condition for the ``||logic:if-else||`` statement.
+Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic:on start||``.
 
 ```blocks
 toggle = false
+serial.writeLine(toggle)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
-        if (toggle) {
+        if (true) {
             sparkbitO.setLightModule(1, Colors.Red, 100)
         } else {
             sparkbitO.setLightModule(1, Colors.Green, 100)
@@ -69,12 +70,11 @@ basic.forever(function () {
 
 ## Step 4
 
-Open the ``||variables:Variables||`` container, select the ``||variables:set toggle||`` block, and connect it below the top ``||sparkbitO:set light module||`` to red block.
-
-Set the value to ``||logic:<false>||`` using the block from the ``||logic:Logic||`` container.
+Add the ``||variables:toggle||`` block as the condition for the ``||logic:if-else||`` statement.
 
 ```blocks
 toggle = false
+serial.writeLine(toggle)
 ```
 
 ```blocks
@@ -82,7 +82,6 @@ basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
             sparkbitO.setLightModule(1, Colors.Red, 100)
-            toggle = false
         } else {
             sparkbitO.setLightModule(1, Colors.Green, 100)
         }
@@ -93,10 +92,13 @@ basic.forever(function () {
 
 ## Step 5
 
-Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set light module||`` to green block, and set to ``||logic:<true>||``.
+Open the ``||variables:Variables||`` container, select the ``||variables:set toggle||`` block, and connect it below the top ``||sparkbitO:set light module||`` to red block.
+
+Set the value to ``||logic:<false>||`` using the block from the ``||logic:Logic||`` container.
 
 ```blocks
 toggle = false
+serial.writeLine(toggle)
 ```
 
 ```blocks
@@ -107,7 +109,6 @@ basic.forever(function () {
             toggle = false
         } else {
             sparkbitO.setLightModule(1, Colors.Green, 100)
-            toggle = true
         }
         basic.pause(500)
     }
@@ -116,10 +117,11 @@ basic.forever(function () {
 
 ## Step 6
 
-Add a ``||serial:serial write line||`` for ``||variables:toggle||`` at the end of the ``||logic:if||`` statement below the ``||basic:pause||`` block.
+Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set light module||`` to green block, and set to ``||logic:<true>||``.
 
 ```blocks
 toggle = false
+serial.writeLine(toggle)
 ```
 
 ```blocks
@@ -133,18 +135,16 @@ basic.forever(function () {
             toggle = true
         }
         basic.pause(500)
-        serial.writeLine(toggle)
     }
 })
 ```
 
 ## Step 7
 
-Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic:on start||``.
+Add a ``||serial:serial write line||`` for ``||variables:toggle||`` at the end of the ``||logic:if||`` statement below the ``||basic:pause||`` block.
 
 ```blocks
 toggle = false
-serial.writeLine(toggle)
 ```
 
 ```blocks
