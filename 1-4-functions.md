@@ -39,7 +39,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(2, Directions.Counterclockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Counterclockwise, 100)
 }
 ```
 
@@ -49,7 +49,7 @@ Open the ``||basic:Basic||`` container, select the ``||basic:pause||`` block, an
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(2, Directions.Counterclockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Counterclockwise, 100)
     basic.pause(1000)
 }
 ```
@@ -60,9 +60,9 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(2, Directions.Counterclockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Counterclockwise, 100)
     basic.pause(1000)
-    sparkbitO.stopMotor(2)
+    sparkbitO.stopMotorModule(2)
 }
 ```
 
@@ -78,14 +78,14 @@ Create a new ``||functions:Function||`` called **right**. Make sure to include a
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(2, Directions.Counterclockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Counterclockwise, 100)
     basic.pause(1000)
-    sparkbitO.stopMotor(2)
+    sparkbitO.stopMotorModule(2)
 }
 function right () {
-    sparkbitO.rotateMotorDuration(2, Directions.Clockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
     basic.pause(1000)
-    sparkbitO.stopMotor(2)
+    sparkbitO.stopMotorModule(2)
 }
 ```
 
@@ -95,24 +95,24 @@ Create two new ``||functions:Functions||`` called **forward** and **backward**. 
 
 ```blocks
 function left () {
-    sparkbitO.rotateMotorDuration(2, Directions.Counterclockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Counterclockwise, 100)
     basic.pause(1000)
-    sparkbitO.stopMotor(2)
+    sparkbitO.stopMotorModule(2)
 }
 function right () {
-    sparkbitO.rotateMotorDuration(2, Directions.Clockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
     basic.pause(1000)
-    sparkbitO.stopMotor(2)
+    sparkbitO.stopMotorModule(2)
 }
 function forward () {
-    sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
+    sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
     basic.pause(1000)
-    sparkbitO.stopMotor(1)
+    sparkbitO.stopMotorModule(1)
 }
 function backward () {
-    sparkbitO.rotateMotorDuration(1, Directions.Counterclockwise, 100)
+    sparkbitO.rotateMotorModule(1, SparkbitDirection.Counterclockwise, 100)
     basic.pause(1000)
-    sparkbitO.stopMotor(1)
+    sparkbitO.stopMotorModule(1)
 }
 ```
 
