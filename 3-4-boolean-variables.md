@@ -146,6 +146,7 @@ Add a ``||serial:serial write line||`` for ``||variables:toggle||`` at the end o
 
 ```blocks
 toggle = false
+serial.writeLine(toggle)
 ```
 
 ```blocks
