@@ -26,16 +26,6 @@ By clicking on each of the categories in the toolbox, a list of coding blocks wi
 
 ## Step 3 @showdialog
 
-There are additional categories that can be accessed by selecting **Advanced** at the bottom of the toolbox. This is where the ``||serial:Serial||`` category is located.
-
-![Advanced categories](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-toolbox-advanced.png)
-
-```blocks
-serial.writeLine("")
-```
-
-## Step 4 @showdialog
-
 The workspace is the large area on the right-hand side of the screen. This is where you will drag your coding blocks and connect them together to build your program. It doesn't matter where your coding blocks are located in the workspace. There are controls at the bottom of the screen to zoom in and zoom out if you need to change the size of the workspace.
 
 There are two ways to delete a coding block from the workspace:
@@ -46,13 +36,19 @@ When you start a new program, usually the ``||basic:on start||`` and ``||basic:f
 
 ![MakeCode screen](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-whole-screen.png)
 
-## Step 5 @showdialog
+```blocks
+basic.forever(function () {
+	
+})
+```
+
+## Step 4 @showdialog
 
 MakeCode has a built-in simulator for the micro:bit inside of the Spark:bit, but it does not include all of the input sensors and output modules for the Spark:bit. You can interact with the simulator by selecting the buttons and viewing the LEDs. Some micro:bit sensors can also be controlled from the simulator to test your program before downloading it to the Spark:bit. There are additional controls under the simulator to stop and restart the simulator, or mute the simulator audio on your computer.  
 
-![micro:bit simulator](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-show-console.png)
+![micro:bit simulator](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-simulator.png)
 
-## Step 6 @showdialog
+## Step 5 @showdialog
 
 After you have created a program, you will need to download it to the Spark:bit. In order to do this, you will need to pair the Spark:bit to your computer using a USB connection.
 
@@ -62,10 +58,10 @@ After you have created a program, you will need to download it to the Spark:bit.
 
 ![USB pairing](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-webusb.png)
 
-## Step 7
+## Step 6
 
 These are the main parts of MakeCode that you will be using with Spark:bit. Don't worry if you didn't catch everything that was covered throughout this tutorial. We will be walking you through each lesson, step-by-step, to help you learn how to use all of the tools in MakeCode to create different types of programs. 
 
-## Step 8
+## Step 7
 
 Click **Finish** and review the next section of the curriculum packet.
