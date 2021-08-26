@@ -31,6 +31,9 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
  
 ```blocks
 toggle = false
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (true) {
@@ -49,6 +52,9 @@ Add the ``||variables:toggle||`` block as the condition for the ``||logic:if-els
 
 ```blocks
 toggle = false
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
@@ -69,6 +75,9 @@ Set the value to ``||logic:<false>||`` using the block from the ``||logic:Logic|
 
 ```blocks
 toggle = false
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
