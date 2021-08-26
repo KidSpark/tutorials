@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
     	
     }
 })
@@ -24,7 +24,7 @@ Open the ``||loops:Loops||`` container, select the ``||loops:while||`` block, an
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         while (false) {
         	
         }
@@ -38,7 +38,7 @@ Add a ``||logic:<not>||`` block to the ``||loops:while||`` loop.
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
         while (!(false)) {
         	
         }
@@ -52,8 +52,8 @@ Add a ``||sparkbitI:bump sensor||`` block inside the ``||logic:<not>||`` block, 
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
-        while (!(sparkbitI.bumpSensor(2))) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
+        while (!(sparkbitI.bumpSensorIsPressed(2))) {
         	
         }
     }
@@ -66,9 +66,9 @@ Add a ``||sparkbitO:set light module||`` block inside the ``||loops:while||`` lo
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
-        while (!(sparkbitI.bumpSensor(2))) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+    if (sparkbitI.bumpSensorIsPressed(1)) {
+        while (!(sparkbitI.bumpSensorIsPressed(2))) {
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
         }
         
     }
@@ -81,11 +81,11 @@ Add a ``||sparkbitO:turn off light module||`` block outside the ``||loops:while|
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
-        while (!(sparkbitI.bumpSensor(2))) {
-            sparkbitO.setLightModule(1, Colors.Red, 100)
+    if (sparkbitI.bumpSensorIsPressed(1)) {
+        while (!(sparkbitI.bumpSensorIsPressed(2))) {
+            sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
         }
-        sparkbitO.stopLight(1)
+        sparkbitO.stopLightModule(1)
     }
 })
 ```
