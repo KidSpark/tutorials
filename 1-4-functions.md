@@ -137,13 +137,20 @@ Determine which directions the maze must tilt in order for the ball to continue 
 
 ## Step 14
 
-Make sure the Spark:bit is powered on. ``|Download|`` the program to the Spark:bit and observe the maze. [Click here](https://youtu.be/9f59YnOa0U4) to see the maze operating correctly.
+Complete the steps to download and test the programming.
+* Make sure the Spark:bit is powered on.
+* ``|Download|`` the program to the Spark:bit and observe the maze.
+* [Click here](https://youtu.be/9f59YnOa0U4) to see the maze operating correctly.
 
-Did your maze function correctly? If not, you may need to go back through your program and check a few things:
+## Step 15
+
+Did your maze function correctly? If yes, proceed to the next step in the tutorial. If no, you may need to go back through your program and check a few things:
 * Make sure the output number and direction are correct in the ``||sparkbitO:rotate motor module||`` blocks.
 * Make sure the ``||functions:call function||`` blocks are in the correct order. 
 * Make sure each direction ``||functions:function||`` includes a 1 second (1000 ms) ``||basic:pause||``.
 
-## Step 15
+Test out your revised program by downloading it to the Spark:bit.
+
+## Step 16
 
 Click **Finish** and review the next section in the curriculum packet.
