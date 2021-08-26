@@ -28,7 +28,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
+    if (sparkbitI.bumpSensorIsPressed(1)) {
     	
     }
 })
@@ -40,8 +40,8 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensor(1)) {
-        sparkbitO.rotateMotorDuration(1, Directions.Clockwise, 100)
+    if (sparkbitI.bumpSensorIsPressed(1)) {
+        sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
     }
 })
 ```
