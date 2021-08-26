@@ -29,6 +29,9 @@ Right click on the ``||logic:if||`` statement and select **Duplicate**. Add the 
 ```blocks
 count = 0
 serial.writeNumber(count)
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -50,6 +53,9 @@ On the bottom ``||logic:if||`` statement, change bump sensor to **input 2** and 
 ```blocks
 count = 0
 serial.writeNumber(count)
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
