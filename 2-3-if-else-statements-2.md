@@ -4,11 +4,11 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    serial.writeNumber(sparkbitI.readAngleSensorDeg(DegreePercent.Percent, 1))
+    serial.writeNumber(sparkbitI.angleSensor(1, SparkbitAngle.Percent))
     if (true) {
-        sparkbitO.setLightModule(1, Colors.Red, 100)
+        sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
     } else {
-        sparkbitO.stopLight(1)
+        sparkbitO.stopLightModule(1)
     }
 })
 ```
@@ -27,11 +27,11 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    serial.writeNumber(sparkbitI.readAngleSensorDeg(DegreePercent.Percent, 1))
-    if (sparkbitI.testAngleSensorPercent(1, LogicCompare.LogicCompareGT, 70)) {
-        sparkbitO.setLightModule(1, Colors.Red, 100)
+    serial.writeNumber(sparkbitI.angleSensor(1, SparkbitAngle.Percent))
+    if (sparkbitI.angleSensorComparePercent(1, SparkbitLogic.GT, 70)) {
+        sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
     } else {
-        sparkbitO.stopLight(1)
+        sparkbitO.stopLightModule(1)
     }
 })
 ```
