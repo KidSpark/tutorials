@@ -27,7 +27,8 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 * Open the ``||basic:Basic||`` container and add ``||basic:on start||`` to the workspace.
 * Open the ``||variables:Variables||`` container and **Make a Variable** called **toggle**.
-* Select the ``||variables:set toggle||`` block and add it to ``||basic:on start||``. Open the ``||logic:Logic||`` container, select ``||logic:<false>||`` and add it to the ``||variables:set toggle||`` block. 
+* Select the ``||variables:set toggle||`` block and add it to ``||basic:on start||``. 
+* Open the ``||logic:Logic||`` container, select ``||logic:<false>||`` and add it to the ``||variables:set toggle||`` block. 
  
 ```blocks
 toggle = false
