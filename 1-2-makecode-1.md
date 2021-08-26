@@ -6,7 +6,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ## Step 1 @showdialog
 
-Welcome to MakeCode for Spark:bit.  MakeCode is an online programming environment that can be used to create custom programs that can be uploaded to the Spark:bit. MakeCode makes it easy to write programs by using blocks of code.
+Welcome to MakeCode for Spark:bit.  MakeCode is an online programming environment that can be used to create custom programs that can be downloaded to the Spark:bit. MakeCode makes it easy to write programs by using blocks of code.
 
 There are four main parts of the MakeCode editor:
 * **Toolbox** - holds all of the coding blocks and is organized into categories.
@@ -50,8 +50,6 @@ When you start a new program, usually the ``||basic:on start||`` and ``||basic:f
 
 MakeCode has a built-in simulator for the micro:bit inside of the Spark:bit, but it does not include all of the input sensors and output modules for the Spark:bit. You can interact with the simulator by selecting the buttons and viewing the LEDs. Some micro:bit sensors can also be controlled from the simulator to test your program before downloading it to the Spark:bit. There are additional controls under the simulator to stop and restart the simulator, or mute the simulator audio on your computer.  
 
-When you use coding blocks from the ``||serial:Serial||`` category and the Spark:bit is connected to USB, a **Show console Device** will appear below the simulator. This allows you to see additional information about the serial communications of the Spark:bit.
-
 ![micro:bit simulator](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-show-console.png)
 
 ## Step 6 @showdialog
@@ -66,7 +64,7 @@ After you have created a program, you will need to download it to the Spark:bit.
 
 ## Step 7
 
-These are the main parts of MakeCode that you'll be using with Spark:bit. 
+These are the main parts of MakeCode that you will be using with Spark:bit. Don't worry if you didn't catch everything that was covered throughout this tutorial. We will be walking you through each lesson, step-by-step, to help you learn how to use all of the tools in MakeCode to create different types of programs. 
 
 ## Step 8
 
