@@ -88,6 +88,9 @@ Add a ``||variables:set toggle||`` block below the bottom ``||sparkbitO:set ligh
 
 ```blocks
 toggle = false
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
@@ -108,6 +111,9 @@ Add a ``||serial:serial write line||`` for ``||variables:toggle||`` at the end o
 
 ```blocks
 toggle = false
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {
@@ -130,6 +136,9 @@ Add a ``||serial:serial write line||`` for ``||variables:toggle||`` to ``||basic
 ```blocks
 toggle = false
 serial.writeLine(toggle)
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         if (toggle) {

@@ -39,6 +39,9 @@ Open the ``||logic:Logic||`` container, select the number ``||logic:<comparison>
 ```blocks
 count = 0
 serial.writeNumber(count)
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
@@ -65,6 +68,9 @@ Add the ``||variables:count||`` variable to the first part of the ``||logic:<com
 ```blocks
 count = 0
 serial.writeNumber(count)
+```
+
+```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensor(1)) {
         count += 1
