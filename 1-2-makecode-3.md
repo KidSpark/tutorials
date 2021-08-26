@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    sparkbitO.rotateMotorDuration(2, Directions.Clockwise, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
 })
 ```
 
@@ -22,8 +22,8 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkb
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorDuration(2, Directions.Clockwise, 100)
-    sparkbitO.setLightModule(1, Colors.Green, 100)
+    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
+    sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
 })
 ```
 
