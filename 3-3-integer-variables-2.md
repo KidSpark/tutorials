@@ -4,11 +4,11 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 count = 0
-serial.writeNumber(count)
+serial.writeLine("" + count)
 basic.forever(function () {
     if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
-        serial.writeNumber(count)
+        serial.writeLine("" + count)
         basic.pause(500)
     }
 })
@@ -28,19 +28,19 @@ Right click on the ``||logic:if||`` statement and select **Duplicate**. Add the 
 
 ```blocks
 count = 0
-serial.writeNumber(count)
+serial.writeLine("" + count)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
-        serial.writeNumber(count)
+        serial.writeLine("" + count)
         basic.pause(500)
     }
     if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
-        serial.writeNumber(count)
+        serial.writeLine("" + count)
         basic.pause(500)
     }
 })
@@ -52,19 +52,19 @@ On the bottom ``||logic:if||`` statement, change bump sensor to **input 2** and 
 
 ```blocks
 count = 0
-serial.writeNumber(count)
+serial.writeLine("" + count)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
-        serial.writeNumber(count)
+        serial.writeLine("" + count)
         basic.pause(500)
     }
     if (sparkbitI.bumpSensorIsPressed(2)) {
         count += -1
-        serial.writeNumber(count)
+        serial.writeLine("" + count)
         basic.pause(500)
     }
 })
