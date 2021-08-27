@@ -12,30 +12,30 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Expand the **Advanced** section, open the ``||serial:Serial||`` container, select the ``||serial:serial write number||`` block, and connect it to the ``||basic:forever||`` function.
+Expand the **Advanced** section, open the ``||serial:Serial||`` container, select the ``||serial:serial write line||`` block, and connect it to the ``||basic:forever||`` function.
 
 ```blocks
 basic.forever(function () {
-    serial.writeNumber(0)
+    serial.writeLine("")
 })
 ```
 ## Step 3
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block, and place it in the ``||serial:serial write number||`` block. Change **degrees (°)** to **percent (%)**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block, and place it in the ``||serial:serial write line||`` block. Change **degrees (°)** to **percent (%)**.
 
 ```blocks
 basic.forever(function () {
-    serial.writeNumber(sparkbitI.angleSensor(1, SparkbitAngle.Percent))
+    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Percent))
 })
 ```
 
 ## Step 4
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and connect it to the bottom of the ``||serial:serial write number||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
 
 ``` blocks
 basic.forever(function () {
-    serial.writeNumber(sparkbitI.angleSensor(1, SparkbitAngle.Percent))
+    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Percent))
     sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
 })
 ```
@@ -46,7 +46,7 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:
 
 ```blocks
 basic.forever(function () {
-    serial.writeNumber(sparkbitI.angleSensor(1, SparkbitAngle.Percent))
+    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Percent))
     sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, sparkbitI.angleSensor(1, SparkbitAngle.Percent))
 })
 ```
