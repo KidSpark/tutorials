@@ -55,12 +55,12 @@ basic.forever(function () {
 ## Step 4
 
 
-Add a ``||serial:serial write number||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
+Add a ``||serial:serial write line||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
 
 
 ```blocks
 let count = 0
-serial.writeNumber(0)
+serial.writeLine("")
 ```
 
 ```blocks
@@ -73,18 +73,18 @@ basic.forever(function () {
 
 ## Step 5
 
-Add a ``||serial:serial write number||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
+Add a ``||serial:serial write line||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
 
 ```blocks
 let count = 0
-serial.writeNumber(0)
+serial.writeLine("")
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
-        serial.writeNumber(0)
+        serial.writeLine("")
         basic.pause(500)
     }
 })
@@ -92,18 +92,18 @@ basic.forever(function () {
 
 ## Step 6
 
-Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write number||`` blocks.
+Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
 
 ```blocks
 count = 0
-serial.writeNumber(count)
+serial.writeLine("" + count)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
-        serial.writeNumber(count)
+        serial.writeLine("" + count)
         basic.pause(500)
     }
 })
