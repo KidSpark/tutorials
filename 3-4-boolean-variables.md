@@ -25,10 +25,10 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-* Open the ``||basic:Basic||`` container and add ``||basic:on start||`` to the workspace.
-* Open the ``||variables:Variables||`` container and **Make a Variable** called **toggle**.
+* Open the ``||basic:Basic||`` category and add ``||basic:on start||`` to the workspace.
+* Open the ``||variables:Variables||`` category and **Make a Variable** called **toggle**.
 * Select the ``||variables:set toggle||`` block and add it to ``||basic:on start||``. 
-* Open the ``||logic:Logic||`` container, select ``||logic:<false>||`` and add it to the ``||variables:set toggle||`` block.
+* Open the ``||logic:Logic||`` category, select ``||logic:<false>||`` and add it to the ``||variables:set toggle||`` block.
  
 ```blocks
 toggle = false
@@ -93,9 +93,9 @@ basic.forever(function () {
 
 ## Step 5
 
-Open the ``||variables:Variables||`` container, select the ``||variables:set toggle||`` block, and connect it below the top ``||sparkbitO:set light module||`` to red block.
+Open the ``||variables:Variables||`` category, select the ``||variables:set toggle||`` block, and connect it below the top ``||sparkbitO:set light module||`` to red block.
 
-Set the value to ``||logic:<false>||`` using the block from the ``||logic:Logic||`` container.
+Set the value to ``||logic:<false>||`` using the block from the ``||logic:Logic||`` category.
 
 ```blocks
 toggle = false
