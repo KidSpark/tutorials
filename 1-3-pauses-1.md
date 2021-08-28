@@ -11,7 +11,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:rotate motor module||`` block. Connect it to the ``||basic:forever||`` function. **Change output to 2**.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category and select the ``||sparkbitO:rotate motor module||`` block. Connect it to the ``||basic:forever||`` function. **Change output to 2**.
 
 ```blocks
 basic.forever(function () {
@@ -21,7 +21,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||basic:Basic||`` container and select the ``||basic:pause||`` block. Connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block.
+Open the ``||basic:Basic||`` category and select the ``||basic:pause||`` block. Connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -32,7 +32,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:stop motor module||`` block. Connect it to the bottom of the ``||basic:pause||`` block. **Change output to 2**.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category and select the ``||sparkbitO:stop motor module||`` block. Connect it to the bottom of the ``||basic:pause||`` block. **Change output to 2**.
 
 ```blocks
 basic.forever(function () {
