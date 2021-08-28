@@ -15,7 +15,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category and select the ``||sparkbi
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
+    sparkbitO.rotateMotorModule(SparkbitOutPort.Output2, SparkbitDirection.Clockwise, 100)
 })
 ```
 
@@ -25,7 +25,7 @@ Open the ``||basic:Basic||`` category and select the ``||basic:pause||`` block. 
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
+    sparkbitO.rotateMotorModule(SparkbitOutPort.Output2, SparkbitDirection.Clockwise, 100)
     basic.pause(100)
 })
 ```
@@ -36,9 +36,9 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category and select the ``||sparkbi
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
+    sparkbitO.rotateMotorModule(SparkbitOutPort.Output2, SparkbitDirection.Clockwise, 100)
     basic.pause(100)
-    sparkbitO.stopMotorModule(2)
+    sparkbitO.stopMotorModule(SparkbitOutPort.Output2)
 })
 ```
 
@@ -48,9 +48,9 @@ Connect a ``||basic:pause||`` block to the bottom of the ``||sparkbitO:stop moto
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
+    sparkbitO.rotateMotorModule(SparkbitOutPort.Output2, SparkbitDirection.Clockwise, 100)
     basic.pause(100)
-    sparkbitO.stopMotorModule(2)
+    sparkbitO.stopMotorModule(SparkbitOutPort.Output2)
     basic.pause(100)
 })
 ```
