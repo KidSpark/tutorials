@@ -18,7 +18,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||logic:Logic||`` container, select the ``||logic:if-else||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
+Open the ``||logic:Logic||`` category, select the ``||logic:if-else||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -33,7 +33,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:bump sensor||`` block, and place it after ``||logic:if||`` by replacing **true**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:bump sensor||`` block, and place it after ``||logic:if||`` by replacing **true**.
 
 ```blocks
 basic.forever(function () {
@@ -48,7 +48,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:set light module||`` block, and connect it below ``||logic:then||``.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:set light module||`` block, and connect it below ``||logic:then||``.
 
 ```blocks
 basic.forever(function () {
@@ -63,7 +63,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:turn off light module||`` block, and connect it below ``||logic:else||``.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:turn off light module||`` block, and connect it below ``||logic:else||``.
 
 ```blocks
 basic.forever(function () {
