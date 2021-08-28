@@ -24,7 +24,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block with the equal sign and degrees, and place it in the top ``||logic:if||`` block by replacing **true**. Change the **equal sign (=) to greater than (>)** and adjust the **degrees to 200**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:angle sensor||`` block with the equal sign and degrees, and place it in the top ``||logic:if||`` block by replacing **true**. Change the **equal sign (=) to greater than (>)** and adjust the **degrees to 200**.
 
 ``` blocks
 basic.forever(function () {
@@ -40,7 +40,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and place it in the middle of the top ``||logic:if||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:rotate motor module||`` block, and place it in the middle of the top ``||logic:if||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -56,7 +56,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block with the equal sign and degrees, and place it in the bottom ``||logic:if||`` block by replacing **true**. Change the **equal sign (=) to less than (<)** and adjust the **degrees to 200**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:angle sensor||`` block with the equal sign and degrees, and place it in the bottom ``||logic:if||`` block by replacing **true**. Change the **equal sign (=) to less than (<)** and adjust the **degrees to 200**.
 
 ```blocks
 basic.forever(function () {
@@ -72,7 +72,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:stop motor module||`` block, and place it in the middle of the bottom ``||logic:if||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:stop motor module||`` block, and place it in the middle of the bottom ``||logic:if||`` block.
 
 ```blocks
 basic.forever(function () {
