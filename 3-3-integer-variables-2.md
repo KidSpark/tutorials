@@ -6,7 +6,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 count = 0
 serial.writeLine("" + count)
 basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         count += 1
         serial.writeLine("" + count)
         basic.pause(500)
@@ -33,12 +33,12 @@ serial.writeLine("" + count)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         count += 1
         serial.writeLine("" + count)
         basic.pause(500)
     }
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         count += 1
         serial.writeLine("" + count)
         basic.pause(500)
@@ -57,12 +57,12 @@ serial.writeLine("" + count)
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         count += 1
         serial.writeLine("" + count)
         basic.pause(500)
     }
-    if (sparkbitI.bumpSensorIsPressed(2)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input2)) {
         count += -1
         serial.writeLine("" + count)
         basic.pause(500)
