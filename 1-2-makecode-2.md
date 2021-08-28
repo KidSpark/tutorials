@@ -11,7 +11,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 ![1-2-makecode-2](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-2.png)
 
 ## Step 2
-Open the ``||sparkbitO:Spark:bit Outputs||`` container and select a ``||sparkbitO:rotate motor module||`` block. Drag the block to the workspace and connect it to the ``||basic:forever||`` function. **Change the output to 2**.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category and select a ``||sparkbitO:rotate motor module||`` block. Drag the block to the workspace and connect it to the ``||basic:forever||`` function. **Change the output to 2**.
 
 ```blocks
 basic.forever(function () {
