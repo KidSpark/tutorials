@@ -18,7 +18,7 @@ Observe how the ball maze can tilt in four directions: left, right, forward, and
 
 ## Step 3
 
-Expand the **Advanced** section, open the ``||functions:Functions||`` container, and select **Make a Function**. Change **doSomething** to **left** and click **Done**.
+Expand the **Advanced** section, open the ``||functions:Functions||`` category, and select **Make a Function**. Change **doSomething** to **left** and click **Done**.
 
 A function is a named section of a program that performs a specific task. Functions are used when the same task needs to be performed multiple times in a program.
 
@@ -35,7 +35,7 @@ Look at the maze and observe how the motor module that is connected to output 2 
 
 ## Step 5
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block and connect to the ``||functions:function left||`` block. Change the output to **2** and the direction to **counterclockwise**.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:rotate motor module||`` block and connect to the ``||functions:function left||`` block. Change the output to **2** and the direction to **counterclockwise**.
 
 ```blocks
 function left () {
@@ -45,7 +45,7 @@ function left () {
 
 ## Step 6
 
-Open the ``||basic:Basic||`` container, select the ``||basic:pause||`` block, and connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block. Change the pause to **1 second** (1000 ms).
+Open the ``||basic:Basic||`` category, select the ``||basic:pause||`` block, and connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block. Change the pause to **1 second** (1000 ms).
 
 ```blocks
 function left () {
@@ -56,7 +56,7 @@ function left () {
 
 ## Step 7
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:stop motor module||`` block, and connect it to the bottom of the ``||basic:pause||`` block. Change the output to **2** 
+Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:stop motor module||`` block, and connect it to the bottom of the ``||basic:pause||`` block. Change the output to **2** 
 
 ```blocks
 function left () {
@@ -124,7 +124,7 @@ Look at the maze and observe how the maze needs to tilt right in order for the b
 
 ## Step 12
 
-Open the ``||functions:Functions||`` container, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
+Open the ``||functions:Functions||`` category, select the ``||functions:call right||`` block, and connect to the ``||basic:on start||`` function.
 
 ![call right](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-4-call-right.png)
 
