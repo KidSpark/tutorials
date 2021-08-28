@@ -20,7 +20,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||loops:Loops||`` container, select the ``||loops:repeat||`` block, and connect it below ``||logic:then||``. Change the value to **3**.
+Open the ``||loops:Loops||`` category, select the ``||loops:repeat||`` block, and connect it below ``||logic:then||``. Change the value to **3**.
 
 ```blocks
 basic.forever(function () {
