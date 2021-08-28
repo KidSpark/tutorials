@@ -23,7 +23,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||logic:Logic||`` container, select the ``||logic:<not>||`` block, and place it after ``||logic:if||`` replacing **true**.
+Open the ``||logic:Logic||`` category, select the ``||logic:<not>||`` block, and place it after ``||logic:if||`` replacing **true**.
 
 ```blocks
 basic.forever(function () {
@@ -38,7 +38,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||logic:<not>||`` block.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||logic:<not>||`` block.
 
 ```blocks
 basic.forever(function () {
