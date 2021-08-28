@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    serial.writeLine(sparkbitI.bumpSensorIsPressed(1))
+    serial.writeLine(sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1))
 })
 ```
 
@@ -69,7 +69,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:
 basic.forever(function () {
     serial.writeLine(sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1))
     if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
-        sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Green, 100)
     } else {
         sparkbitO.stopLightModule(SparkbitOutPort.Output1)
     }
