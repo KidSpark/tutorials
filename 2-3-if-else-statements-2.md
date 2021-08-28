@@ -23,7 +23,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block with the equal sign and percent (%), and place it after ``||logic:if||`` replacing **true**. Change the **equal sign (=) to greater than (>)** and adjust the **percent to 70**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:angle sensor||`` block with the equal sign and percent (%), and place it after ``||logic:if||`` replacing **true**. Change the **equal sign (=) to greater than (>)** and adjust the **percent to 70**.
 
 ```blocks
 basic.forever(function () {
