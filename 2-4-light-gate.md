@@ -23,7 +23,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||serial:serial write line||`` block.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||serial:serial write line||`` block.
 
 ```blocks
 basic.forever(function () {
