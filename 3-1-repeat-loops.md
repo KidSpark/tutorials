@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
     	
     }
 })
@@ -24,7 +24,7 @@ Open the ``||loops:Loops||`` category, select the ``||loops:repeat||`` block, an
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         for (let index = 0; index < 3; index++) {
         	
         }
@@ -38,9 +38,9 @@ Add a ``||sparkbitO:rotate motor module||`` and a ``||basic:pause||`` block insi
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         for (let index = 0; index < 3; index++) {
-            sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
+            sparkbitO.rotateMotorModule(SparkbitOutPort.Output1, SparkbitDirection.Clockwise, 100)
             basic.pause(1000)
         }
     }
@@ -53,11 +53,11 @@ Add a ``||sparkbitO:stop motor module||`` and a ``||basic:pause||`` block to the
 
 ```blocks
 basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         for (let index = 0; index < 3; index++) {
-            sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
+            sparkbitO.rotateMotorModule(SparkbitOutPort.Output1, SparkbitDirection.Clockwise, 100)
             basic.pause(1000)
-            sparkbitO.stopMotorModule(1)
+            sparkbitO.stopMotorModule(SparkbitOutPort.Output1)
             basic.pause(1000)
         }
     }
