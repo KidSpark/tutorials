@@ -20,7 +20,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||loops:Loops||`` container, select the ``||loops:while||`` block, and connect it below ``||logic:then||``.
+Open the ``||loops:Loops||`` category, select the ``||loops:while||`` block, and connect it below ``||logic:then||``.
 
 ```blocks
 basic.forever(function () {
