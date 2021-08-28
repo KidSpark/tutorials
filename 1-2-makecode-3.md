@@ -18,7 +18,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container and select the ``||sparkbitO:set light module||`` block and connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category and select the ``||sparkbitO:set light module||`` block and connect it to the bottom of the ``||sparkbitO:rotate motor module||`` block.
 
 ```blocks
 basic.forever(function () {
