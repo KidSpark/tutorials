@@ -34,7 +34,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||logic:Logic||`` container, select the number ``||logic:<comparison>||`` block with the equal sign <0 = 0>, place it in the bottom ``||logic:if||`` statement.
+Open the ``||logic:Logic||`` category, select the number ``||logic:<comparison>||`` block with the equal sign <0 = 0>, place it in the bottom ``||logic:if||`` statement.
 
 ```blocks
 count = 0
