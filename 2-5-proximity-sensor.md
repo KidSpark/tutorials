@@ -4,11 +4,11 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    serial.writeLine(sparkbitI.irTransmitterIsReceived(1, 2))
+    serial.writeLine(sparkbitI.irTransmitterIsReceived(SparkbitInPort.Input1, SparkbitInPort.Input2))
     if (true) {
-        sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Green, 100)
     } else {
-        sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Red, 100)
     }
 })
 ```
@@ -27,11 +27,11 @@ Open the ``||logic:Logic||`` category, select the ``||logic:<not>||`` block, and
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine(sparkbitI.irTransmitterIsReceived(1, 2))
+    serial.writeLine(sparkbitI.irTransmitterIsReceived(SparkbitInPort.Input1, SparkbitInPort.Input2))
     if (!(false)) {
-        sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Green, 100)
     } else {
-        sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Red, 100)
     }
 })
 ```
@@ -42,11 +42,11 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:I
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine(sparkbitI.irTransmitterIsReceived(1, 2))
-    if (!(sparkbitI.irTransmitterIsReceived(1, 2))) {
-        sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
+    serial.writeLine(sparkbitI.irTransmitterIsReceived(SparkbitInPort.Input1, SparkbitInPort.Input2))
+    if (!(sparkbitI.irTransmitterIsReceived(SparkbitInPort.Input1, SparkbitInPort.Input2))) {
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Green, 100)
     } else {
-        sparkbitO.setLightModule(1, SparkbitColor.Red, 100)
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Red, 100)
     }
 })
 ```
