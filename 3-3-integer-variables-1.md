@@ -25,7 +25,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 * Select the ``||variables:set count||`` block and add it to ``||basic:on start||``. Confirm the initial **value is 0**. 
 
 ```blocks
-let count = 0
+count = 0
 ```
 
 ```blocks
@@ -38,61 +38,44 @@ basic.forever(function () {
 
 ## Step 3
 
-Open the ``||variables:Variables||`` container, select the ``||variables:change count||`` block, and connect it below ``||logic:then||``.
+Add a ``||serial:serial write line||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
+Open the ``||variables:Variables||`` category, select the ``||variables:count||`` block, and add it to the ``||serial:serial write line||`` block.
 
 ```blocks
-let count = 0
+count = 0
+serial.writeLine("" + count)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensorIsPressed(1)) {
-        count += 1
+        
     }
 })
 ```
 
 ## Step 4
 
-
-Add a ``||serial:serial write line||`` block to ``||basic:on start||`` below the ``||variables:set count||`` block.
-
+Open the ``||variables:Variables||`` category, select the ``||variables:change count||`` block, and connect it below ``||logic:then||`` in the if statement.
+Add a ``||serial:serial write line||`` block to the ``||logic:if||`` statement. Place a variable ``||variables: count||`` block in the ``||serial:serial write line||`` block.
 
 ```blocks
-let count = 0
-serial.writeLine("")
+count = 0
+serial.writeLine("" + count)
 ```
 
 ```blocks
 basic.forever(function () {
     if (sparkbitI.bumpSensorIsPressed(1)) {
         count += 1
+        serial.writeLine("" + count)
     }
 })
 ```
 
 ## Step 5
 
-Add a ``||serial:serial write line||`` block and a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
-
-```blocks
-let count = 0
-serial.writeLine("")
-```
-
-```blocks
-basic.forever(function () {
-    if (sparkbitI.bumpSensorIsPressed(1)) {
-        count += 1
-        serial.writeLine("")
-        basic.pause(500)
-    }
-})
-```
-
-## Step 6
-
-Open the ``||variables:Variables||`` container, select the ``||variables:count||`` block, and add it to both of the ``||serial:serial write line||`` blocks.
+Add a ``||basic:pause||`` block to the ``||logic:if||`` statement. Change pause to **500 ms**.
 
 ```blocks
 count = 0
@@ -109,7 +92,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 7
+## Step 6
 
 Follow the steps below to download and test the program:
 * ``|Download|`` the program to the Spark:bit.
@@ -119,6 +102,6 @@ Follow the steps below to download and test the program:
 * [Click here](https://youtu.be/i9J7VC1TM9U) to see a video of the mechanism and serial monitor in action.
 * Power off the Spark:bit.
 
-## Step 8
+## Step 7
 
 Click **Finish** and review the next section in the curriculum packet.
