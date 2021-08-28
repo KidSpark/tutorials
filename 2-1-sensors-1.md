@@ -12,7 +12,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Expand the **Advanced** section, open the ``||serial:Serial||`` container, select the ``||serial:serial write line||`` block, and connect it to the ``||basic:forever||`` function.
+Expand the **Advanced** section, open the ``||serial:Serial||`` category, select the ``||serial:serial write line||`` block, and connect it to the ``||basic:forever||`` function.
 
 ```blocks
 basic.forever(function () {
@@ -21,7 +21,7 @@ basic.forever(function () {
 ```
 ## Step 3
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block, and place it in the ``||serial:serial write line||`` block. Change **degrees (°)** to **percent (%)**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:angle sensor||`` block, and place it in the ``||serial:serial write line||`` block. Change **degrees (°)** to **percent (%)**.
 
 ```blocks
 basic.forever(function () {
@@ -31,7 +31,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Open the ``||sparkbitO:Spark:bit Outputs||`` container, select the ``||sparkbitO:rotate motor module||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
+Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:rotate motor module||`` block, and connect it to the bottom of the ``||serial:serial write line||`` block.
 
 ``` blocks
 basic.forever(function () {
@@ -42,7 +42,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select the ``||sparkbitI:angle sensor||`` block, and place it in the speed portion of the ``||sparkbitO:rotate motor module||`` block. Change **degrees (°)** to **percent (%)**.
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:angle sensor||`` block, and place it in the speed portion of the ``||sparkbitO:rotate motor module||`` block. Change **degrees (°)** to **percent (%)**.
 
 ```blocks
 basic.forever(function () {
