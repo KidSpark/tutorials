@@ -22,7 +22,7 @@ Open the ``||logic:Logic||`` category, select the ``||logic:if-else||`` block, a
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine(sparkbitI.bumpSensorIsPressed(1))
+    serial.writeLine(sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1))
     if (true) {
     	
     } else {
@@ -37,8 +37,8 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:b
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine(sparkbitI.bumpSensorIsPressed(1))
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    serial.writeLine(sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1))
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
     	
     } else {
     	
@@ -52,9 +52,9 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine(sparkbitI.bumpSensorIsPressed(1))
-    if (sparkbitI.bumpSensorIsPressed(1)) {
-        sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
+    serial.writeLine(sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1))
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
+        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Green, 100)
     } else {
     	
     }
@@ -67,11 +67,11 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine(sparkbitI.bumpSensorIsPressed(1))
-    if (sparkbitI.bumpSensorIsPressed(1)) {
+    serial.writeLine(sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1))
+    if (sparkbitI.bumpSensorIsPressed(SparkbitInPort.Input1)) {
         sparkbitO.setLightModule(1, SparkbitColor.Green, 100)
     } else {
-        sparkbitO.stopLightModule(1)
+        sparkbitO.stopLightModule(SparkbitOutPort.Output1)
     }
 })
 ```
