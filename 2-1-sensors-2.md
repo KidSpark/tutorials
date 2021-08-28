@@ -18,7 +18,7 @@ Connect a bump sensor to Input 1 on the Spark:bit. Then select **Ok** to proceed
 
 ## Step 2
 
-Open the ``||sparkbitI:Spark:bit Inputs||`` container, select a ``||sparkbitI:bump sensor||`` block, and place it in the ``||serial:serial write line||`` block. 
+Open the ``||sparkbitI:Spark:bit Inputs||`` category, select a ``||sparkbitI:bump sensor||`` block, and place it in the ``||serial:serial write line||`` block. 
 
 ```blocks
 basic.forever(function () {
