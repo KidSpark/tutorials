@@ -4,7 +4,7 @@ pxt-sparkbit=github:kidspark/pxt-sparkbit
 
 ```template
 basic.forever(function () {
-    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Degree))
+    serial.writeLine("" + sparkbitI.angleSensor(SparkbitInPort.Input1, SparkbitAngle.Degree))
     if (true) {
     	
     }
@@ -28,8 +28,8 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:a
 
 ``` blocks
 basic.forever(function () {
-    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Degree))
-    if (sparkbitI.angleSensorCompareDegree(1, SparkbitLogic.GT, 200)) {
+    serial.writeLine("" + sparkbitI.angleSensor(SparkbitInPort.Input1, SparkbitAngle.Degree))
+    if (sparkbitI.angleSensorCompareDegree(SparkbitInPort.Input1, SparkbitLogic.GT, 200)) {
     	
     }
     if (true) {
@@ -44,9 +44,9 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Degree))
-    if (sparkbitI.angleSensorCompareDegree(1, SparkbitLogic.GT, 200)) {
-        sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
+    serial.writeLine("" + sparkbitI.angleSensor(SparkbitInPort.Input1, SparkbitAngle.Degree))
+    if (sparkbitI.angleSensorCompareDegree(SparkbitInPort.Input1, SparkbitLogic.GT, 200)) {
+        sparkbitO.rotateMotorModule(SparkbitOutPort.Output1, SparkbitDirection.Clockwise, 100)
     }
     if (true) {
     	
@@ -60,11 +60,11 @@ Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:a
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Degree))
-    if (sparkbitI.angleSensorCompareDegree(1, SparkbitLogic.GT, 200)) {
-        sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
+    serial.writeLine("" + sparkbitI.angleSensor(SparkbitInPort.Input1, SparkbitAngle.Degree))
+    if (sparkbitI.angleSensorCompareDegree(SparkbitInPort.Input1, SparkbitLogic.GT, 200)) {
+        sparkbitO.rotateMotorModule(SparkbitOutPort.Output1, SparkbitDirection.Clockwise, 100)
     }
-    if (sparkbitI.angleSensorCompareDegree(1, SparkbitLogic.LT, 200)) {
+    if (sparkbitI.angleSensorCompareDegree(SparkbitInPort.Input1, SparkbitLogic.LT, 200)) {
     	
     }
 })
@@ -76,12 +76,12 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category, select the ``||sparkbitO:
 
 ```blocks
 basic.forever(function () {
-    serial.writeLine("" + sparkbitI.angleSensor(1, SparkbitAngle.Degree))
-    if (sparkbitI.angleSensorCompareDegree(1, SparkbitLogic.GT, 200)) {
-        sparkbitO.rotateMotorModule(1, SparkbitDirection.Clockwise, 100)
+    serial.writeLine("" + sparkbitI.angleSensor(SparkbitInPort.Input1, SparkbitAngle.Degree))
+    if (sparkbitI.angleSensorCompareDegree(SparkbitInPort.Input1, SparkbitLogic.GT, 200)) {
+        sparkbitO.rotateMotorModule(SparkbitOutPort.Output1, SparkbitDirection.Clockwise, 100)
     }
-    if (sparkbitI.angleSensorCompareDegree(1, SparkbitLogic.LT, 200)) {
-        sparkbitO.stopMotorModule(1)
+    if (sparkbitI.angleSensorCompareDegree(SparkbitInPort.Input1, SparkbitLogic.LT, 200)) {
+        sparkbitO.stopMotorModule(SparkbitOutPort.Output1)
     }
 })
 ```
