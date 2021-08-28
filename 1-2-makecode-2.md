@@ -15,7 +15,7 @@ Open the ``||sparkbitO:Spark:bit Outputs||`` category and select a ``||sparkbitO
 
 ```blocks
 basic.forever(function () {
-    sparkbitO.rotateMotorModule(2, SparkbitDirection.Clockwise, 100)
+    sparkbitO.rotateMotorModule(SparkbitOutPort.Output2, SparkbitDirection.Clockwise, 100)
 })
 ```
 
