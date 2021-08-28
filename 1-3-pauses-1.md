@@ -61,7 +61,7 @@ basic.forever(function () {
 
 ## Step 7
 
-Adjust both ``||basic:pause||`` times to **1000ms**. 
+Adjust both ``||basic:pause||`` times to **1000ms** (1 second). 
 
 ## Step 8
 
