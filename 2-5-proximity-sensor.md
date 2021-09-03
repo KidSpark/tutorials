@@ -23,22 +23,8 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 2
 
-Open the ``||logic:Logic||`` category, select the ``||logic:<not>||`` block, and place it after ``||logic:if||`` replacing **true**.
-
-```blocks
-basic.forever(function () {
-    serial.writeLine(sparkbitI.irTransmitterIsReceived(SparkbitInPort.Input1, SparkbitInPort.Input2))
-    if (!(false)) {
-        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Green, 100)
-    } else {
-        sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Red, 100)
-    }
-})
-```
-
-## Step 3
-
-Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||logic:<not>||`` block.
+* Open the ``||logic:Logic||`` category, select the ``||logic:<not>||`` block, and place it after ``||logic:if||`` replacing **true**.
+* Open the ``||sparkbitI:Spark:bit Inputs||`` category, select the ``||sparkbitI:IR Tx/Rx||`` block, and place it in the ``||logic:<not>||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -51,7 +37,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+## Step 3
 
 Follow the steps below to download and test the program:
 * ``|Download|`` the program to the Spark:bit.
@@ -61,6 +47,6 @@ Follow the steps below to download and test the program:
 * [Click here](https://youtu.be/kB-wHXfGG3c) to see a video of the mechanism in action.
 * Power off the Spark:bit.
 
-## Step 5
+## Step 4
 
 Click **Finish** and review the next section in the curriculum packet.
