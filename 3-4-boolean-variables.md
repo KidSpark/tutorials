@@ -26,8 +26,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 ## Step 2
 
 * Open the ``||basic:Basic||`` category and add ``||basic:on start||`` to the workspace.
-* Open the ``||variables:Variables||`` category and **Make a Variable** called **toggle**.
-* Select the ``||variables:set toggle||`` block and add it to ``||basic:on start||``. 
+* Open the ``||variables:Variables||`` category and **Make a Variable** called **toggle**. Select the ``||variables:set toggle||`` block and add it to ``||basic:on start||``. 
 * Open the ``||logic:Logic||`` category, select ``||logic:<false>||`` and add it to the ``||variables:set toggle||`` block.
  
 ```blocks
