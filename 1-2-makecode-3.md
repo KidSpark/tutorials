@@ -29,7 +29,7 @@ basic.forever(function () {
 
 ## Step 3
 
-``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://youtu.be/ZduFrq8SoWE) to see the mechanism in action.
+``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://kidsparkeducation.org/media/2355) to see the mechanism in action.
 
 ## Step 4
 
