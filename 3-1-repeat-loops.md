@@ -70,7 +70,7 @@ Follow the steps below to download and test the program:
 * ``|Download|`` the program to the Spark:bit.
 * Make sure the Spark:bit is powered on.
 * Press the bump sensor and observe the mechanism.
-* [Click here](https://youtu.be/d6GwBTKQqAs) to see a video of the mechanism in action.
+* [Click here](https://kidsparkeducation.org/media/2367) to see a video of the mechanism in action.
 
 ## Step 6
 
