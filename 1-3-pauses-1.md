@@ -65,7 +65,7 @@ Adjust both ``||basic:pause||`` times to **1000ms** (1 second).
 
 ## Step 8
 
-``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://youtu.be/WQZsln7YcQw) to see the mechanism in action.
+``|Download|`` the program to the Spark:bit. Make sure the Spark:bit is powered on, then observe the mechanism. [Click here](https://kidsparkeducation.org/media/2356) to see the mechanism in action.
 
 ## Step 9
 
