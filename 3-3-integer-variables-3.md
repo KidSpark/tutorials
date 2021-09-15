@@ -98,7 +98,7 @@ Follow the steps below to download and test the program:
 * Select **Show console Device** located under the micro:bit simulator and observe the serial monitor.
 * Press bump sensor 1 five times and observe the mechanism (light module) and the serial monitor.
 * Press bump sensor 2 and observe the machanism (light module) and the serial monitor.
-* [Click here](https://youtu.be/zS4ByCWoqPA) to see a video of the mechanism and serial monitor in action.
+* [Click here](https://kidsparkeducation.org/media/2372) to see a video of the mechanism and serial monitor in action.
 * Power off the Spark:bit.
 
 ## Step 4
