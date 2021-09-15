@@ -28,7 +28,7 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ## Step 3 
 
-Make sure the Spark:bit is powered on, then press the Bump Sensor and observe the mechanism. [Click here](https://youtu.be/LGxoURbz980) to see the mechanism in action.
+Make sure the Spark:bit is powered on, then press the Bump Sensor and observe the mechanism. [Click here](https://kidsparkeducation.org/media/2438) to see the mechanism in action.
 
 ## Step 4
 
