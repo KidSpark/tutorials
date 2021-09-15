@@ -33,7 +33,7 @@ Follow the steps below to download and test the program:
 * Make sure the Spark:bit is powered on and connected to the USB cable.
 * Select **Show console Device** located under the micro:bit simulator and observe how the serial monitor displays the text **false**.
 * Press the bump sensor and observe how the serical monitor displays the text **true**.
-* [Click here](https://youtu.be/_F_F8L9VedE) to see a video of program in action.
+* [Click here](https://kidsparkeducation.org/media/2360) to see a video of program in action.
 * Power off the Spark:built
 
 ## Step 4
