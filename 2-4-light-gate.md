@@ -59,7 +59,7 @@ Follow the steps below to download and test the program:
 * Select **Show console Device** located under the micro:bit simulator and observe the serial monitor.
 * Test and observe the mechanism by placing a finger between the transmitter and receiver.
 * Observe the boolean values (true and false) in the serial monitor.
-* [Click here](https://youtu.be/LfntBsh-KXE) to see a video of the mechanism in action.
+* [Click here](https://kidsparkeducation.org/media/2365) to see a video of the mechanism in action.
 * Power off the Spark:bit.
 
 ## Step 4
