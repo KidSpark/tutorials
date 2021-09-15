@@ -140,7 +140,7 @@ Determine which directions the maze must tilt in order for the ball to continue 
 Complete the steps to download and test the programming.
 * Make sure the Spark:bit is powered on.
 * ``|Download|`` the program to the Spark:bit and observe the maze.
-* [Click here](https://youtu.be/9f59YnOa0U4) to see the maze operating correctly.
+* [Click here](https://kidsparkeducation.org/media/2358) to see the maze operating correctly.
 
 ## Step 15
 
