@@ -39,7 +39,7 @@ Select another ``||sparkbitO:set light module||`` block and connect it to the bo
 ```blocks
 basic.forever(function () {
     sparkbitO.rotateMotorModule(SparkbitOutPort.Output2, SparkbitDirection.Clockwise, 100)
-    sparkbitO.setLightModuleSparkbitOutPort.Output1, SparkbitColor.Green, 100)
+    sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Green, 100)
     basic.pause(1000)
     sparkbitO.stopMotorModule(SparkbitOutPort.Output2)
     sparkbitO.setLightModule(SparkbitOutPort.Output1, SparkbitColor.Red, 100)
