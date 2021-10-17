@@ -69,4 +69,4 @@ Adjust both ``||basic:pause||`` times to **1000ms** (1 second).
 
 ## Step 9
 
-click **Finish** and review the next section of the curriculum packet.
+Click **Finish** and review the next section of the curriculum packet.
