@@ -41,4 +41,4 @@ Adjust the color and brightness values of the ``||sparkbitO:set light module||``
 
 ## Step 6
 
-Click **Finish**, turn off the Spark:bit, and review the next section in the curriculum packet.
+Power off the Spark:bit, then click **Finish** and review the next section in the curriculum packet.
