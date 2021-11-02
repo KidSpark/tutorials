@@ -33,4 +33,4 @@ Adjust the direction and speed of the ``||sparkbitO:rotate motor module||`` bloc
 
 ## Step 6
 
-Click **Finish** and review the next section in the curriculum packet.
+Click **Finish**, turn off the Spark:bit, and review the next section in the curriculum packet.
