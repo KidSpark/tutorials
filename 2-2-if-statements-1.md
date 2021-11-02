@@ -57,4 +57,4 @@ Follow the steps below to download and test the program:
 
 ## Step 6
 
-Click **Finish** and review the next section in the curriculum packet.
+Click **Finish**, turn off the Spark:bit, and review the next section in the curriculum packet.
