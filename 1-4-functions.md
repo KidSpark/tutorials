@@ -153,4 +153,4 @@ Test out your revised program by downloading it to the Spark:bit.
 
 ## Step 16
 
-Click **Finish**, turn off the Spark:bit, and review the next section in the curriculum packet.
+Power off the Spark:bit, then click **Finish** and review the next section in the curriculum packet.
