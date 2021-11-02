@@ -42,4 +42,4 @@ Make sure the Spark:bit is powered on, then press the Bump Sensor and observe th
 
 ## Step 4
 
-Click **Finish** and review the next section of the curriculum packet.
+Click **Finish**, turn off the Spark:bit, and review the next section of the curriculum packet.
