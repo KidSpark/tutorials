@@ -69,4 +69,4 @@ Adjust both ``||basic:pause||`` times to **1000ms** (1 second).
 
 ## Step 9
 
-Click **Finish**, turn off the Spark:bit, and review the next section of the curriculum packet.
+Power off the Spark:bit, then click **Finish** and review the next section of the curriculum packet.
