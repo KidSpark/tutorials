@@ -48,20 +48,10 @@ MakeCode has a built-in simulator for the micro:bit inside of the Spark:bit, but
 
 ![micro:bit simulator](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-simulator.png)
 
-## Step 5 @showdialog
-
-After you have created a program, you will need to download it to the Spark:bit. In order to do this, you will need to pair the Spark:bit to your computer using a USB connection.
-
-* Step 1 - Connect the Spark:bit to a computer using a USB cable.
-* Step 2 - In the MakeCode editor, select the three dots ``|download:•••|`` beside the ``|Download|`` button and select **Connect device**.
-* Step 3 - Follow the onscreen instructions to pair the Spark:bit with the computer. Notice the icon on the ``|Download|`` button will change when the Spark:bit is successfully paired to your computer.
-
-![USB pairing](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-webusb.png)
-
-## Step 6
+## Step 5
 
 These are the main parts of MakeCode that you will be using with Spark:bit. Don't worry if you didn't catch everything that was covered throughout this tutorial. We will be walking you through each lesson, step-by-step, to help you learn how to use all of the tools in MakeCode to create different types of programs. 
 
-## Step 7
+## Step 6
 
 Click **Finish** and review the next section of the curriculum packet.
