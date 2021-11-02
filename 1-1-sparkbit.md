@@ -22,9 +22,19 @@ Follow the step-by-step instructions in the curriculum packet for this lesson to
 
 ![1-1-sparkbit](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-1-sparkbit.png)
 
-## Step 2
+## Step 2 @showdialog
 
-``|Download|`` the following program to the Spark:bit (program already completed).
+In order to download a program to the Spark:bit, you will need to pair the Spark:bit to your computer using a USB connection.
+
+* Step 1 - Connect the Spark:bit to the computer using a USB cable.
+* Step 2 - In the MakeCode editor, select the three dots ``|download:•••|`` beside the ``|Download|`` button and select **Connect device**.
+* Step 3 - Follow the onscreen instructions to pair the Spark:bit with the computer. Notice the icon on the ``|Download|`` button will change when the Spark:bit is successfully paired to your computer.
+
+![USB pairing](https://raw.githubusercontent.com/KidSpark/tutorials/master/assets/1-2-makecode-webusb.png)
+
+## Step 3
+
+Now, ``|Download|`` the following program to the Spark:bit (program already completed).
 
 ## Step 3 
 
