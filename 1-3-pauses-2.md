@@ -60,4 +60,4 @@ Adjust the ``||basic:pause||`` times.
 
 ## Step 7
 
-Click **Finish** and review the next section in the curriculum packet.
+Click **Finish**, turn off the Spark:bit, and review the next section in the curriculum packet.
