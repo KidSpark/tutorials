@@ -1,3 +1,7 @@
+# MakeCode Tutorials for Kid Spark Education Spark:bit robotics controller
+<img src="https://github.com/KidSpark/tutorials/blob/master/assets/stem-pathways-lab.png?raw=true" alt="STEM Pathways Lab" width="400"/>
+
+
 ## Access our library of tutorials and learning tools here:
 https://kidsparkeducation.org/robotics
 
